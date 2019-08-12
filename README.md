@@ -1,7 +1,7 @@
 # Awesome-VAEs
 Awesome work on VAEs, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 185 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 191 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
