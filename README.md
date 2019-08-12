@@ -7,6 +7,9 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2019
 
+Learning latent superstructures in variational autoencoders for deep multidimensional clustering.	Li, Chen, Poon, Zhang	https://openreview.net/pdf?id=SJgNwi09Km
+
+
 Tighter variational bounds are not necessarily better.	Rainforth, Kosiorek, Le, Maddison, Igl, Wood, The	https://arxiv.org/pdf/1802.04537.pdf	https://github.com/lxuechen/DReG-PyTorch
 
 ISA-VAE: Independent subspace analysis with variational autoencoders. Anon. https://openreview.net/pdf?id=rJl_NhR9K7
@@ -114,10 +117,15 @@ Variational autoencoders with jointly optimized latent dependency structure.	He,
 
 Unsupervised learning of spatiotemporally coherent metrics	Goroshin, Bruna, Tompson, Eigen, LeCun	https://arxiv.org/pdf/1412.6056.pdf
 
+Temporal difference variational auto-encoder.	Gregor, Papamakarios, Besse, Buesing, Weber	https://arxiv.org/pdf/1806.03107.pdf	https://github.com/xqding/TD-VAE
+
 ## 2018
+
+Leveraging the exact likelihood of deep latent variable models.	Mattei, Frellsen	https://arxiv.org/pdf/1802.04826.pdf
 
 What is wrong with VAEs?	Kosiorek	http://akosiorek.github.io/ml/2018/03/14/what_is_wrong_with_vaes.html	
 
+Stochastic variational video prediction.	Babaeizadeh, Finn, Erhan, Campbell, Levine	https://arxiv.org/pdf/1710.11252.pdf	https://github.com/alexlee-gk/video_prediction
 
 Variational attention for sequence-to-sequence models.	Bahuleyan, Mou, Vechtomova, Poupart	https://arxiv.org/pdf/1712.08207.pdf	https://github.com/variational-attention/tf-var-attention
 
@@ -372,7 +380,12 @@ Autoencoding beyond pixels using a learned similarity metric.	Boesen, Larsen, So
 
 Generating images with perceptual similarity metrics based on deep networks	Dosovitskiy, Brox	https://arxiv.org/pdf/1602.02644.pdf	https://github.com/shijx12/DeepSim
 
+
+
 ## 2015
+
+Training generative neural networks via Maximum Mean Discrepancy optimization.	Dziugaite, Roy, Ghahramani	https://arxiv.org/pdf/1505.03906.pdf
+
 
 NICE: non-linear independent components estimation.	Dinh, Krueger, Bengio	https://arxiv.org/pdf/1410.8516.pdf	
 
@@ -383,6 +396,8 @@ Learning structured output representation using deep conditional generative mode
 Latent variable model with diversity-inducing mutual angular regularization.	Xie, Deng, Xing	https://arxiv.org/pdf/1512.07336.pdf
 
 ## 2014
+
+Auto-encoding variational Bayes.	Kingma, Welling	https://arxiv.org/pdf/1312.6114.pdf
 
 Learning to disentangle factors of variation with manifold interaction.	Reed, Sohn, Zhang, Lee	http://proceedings.mlr.press/v32/reed14.pdf	
 
