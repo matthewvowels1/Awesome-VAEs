@@ -7,6 +7,8 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2019
 
+Tighter variational bounds are not necessarily better.	Rainforth, Kosiorek, Le, Maddison, Igl, Wood, The	https://arxiv.org/pdf/1802.04537.pdf	https://github.com/lxuechen/DReG-PyTorch
+
 ISA-VAE: Independent subspace analysis with variational autoencoders. Anon. https://openreview.net/pdf?id=rJl_NhR9K7
 
 
@@ -114,6 +116,10 @@ Unsupervised learning of spatiotemporally coherent metrics	Goroshin, Bruna, Tomp
 
 ## 2018
 
+What is wrong with VAEs?	Kosiorek	http://akosiorek.github.io/ml/2018/03/14/what_is_wrong_with_vaes.html	
+
+
+Variational attention for sequence-to-sequence models.	Bahuleyan, Mou, Vechtomova, Poupart	https://arxiv.org/pdf/1712.08207.pdf	https://github.com/variational-attention/tf-var-attention
 
 FactorVAE Disentangling by factorizing.	Kim, Minh	https://arxiv.org/pdf/1802.05983.pdf	
 
@@ -356,14 +362,25 @@ Infinite variational autoencoder for semi-supervised learning.	Abbasnejad, Dick	
 
 f-GAN: Training generative neural samplers using variational divergence minimization.	Nowozin, Cseke	https://arxiv.org/pdf/1606.00709.pdf	https://github.com/LynnHo/f-GAN-Tensorflow
 
-DISCO Nets: DISsimilarity Coefficient networks	Bouchacourt, Kumar, Nowozin	https://arxiv.org/pdf/1606.02556.pdf	https://github.com/oval-group/DISCONets![image.png](attachment:image.png)
+DISCO Nets: DISsimilarity Coefficient networks	Bouchacourt, Kumar, Nowozin	https://arxiv.org/pdf/1606.02556.pdf	https://github.com/oval-group/DISCONets
+
+Information dropout: learning optimal representations through noisy computations.	Achille, Soatto	https://arxiv.org/pdf/1611.01353.pdf
+
+Weakly-supervised disentangling with recurrent transformations for 3D view synthesis.	Yang, Reed, Yang, Lee	https://arxiv.org/pdf/1601.00706.pdf	https://github.com/jimeiyang/deepRotator
+
+Autoencoding beyond pixels using a learned similarity metric.	Boesen, Larsen, Sonderby, Larochelle, Winther	https://arxiv.org/pdf/1512.09300.pdf	https://github.com/andersbll/autoencoding_beyond_pixels
+
+Generating images with perceptual similarity metrics based on deep networks	Dosovitskiy, Brox	https://arxiv.org/pdf/1602.02644.pdf	https://github.com/shijx12/DeepSim
 
 ## 2015
 
-NICE: non-linear independent components estimation	Dinh, Krueger, Bengio	https://arxiv.org/pdf/1410.8516.pdf	
-Deep convolutional inverse graphics network	Kulkarni, Whitney, Kohli, Tenenbaum	https://arxiv.org/pdf/1503.03167.pdf	https://github.com/yselivonchyk/TensorFlow_DCIGN
-Learning structured output representation using deeo conditional generative models	Sohn, Yan, Lee	https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf	https://github.com/wsjeon/ConditionalVariationalAutoencoder
-Latent variable model with diversity-inducing mutual angular regularization	Xie, Deng, Xing	https://arxiv.org/pdf/1512.07336.pdf
+NICE: non-linear independent components estimation.	Dinh, Krueger, Bengio	https://arxiv.org/pdf/1410.8516.pdf	
+
+Deep convolutional inverse graphics network.	Kulkarni, Whitney, Kohli, Tenenbaum	https://arxiv.org/pdf/1503.03167.pdf	https://github.com/yselivonchyk/TensorFlow_DCIGN
+
+Learning structured output representation using deep conditional generative models.	Sohn, Yan, Lee	https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf	https://github.com/wsjeon/ConditionalVariationalAutoencoder
+
+Latent variable model with diversity-inducing mutual angular regularization.	Xie, Deng, Xing	https://arxiv.org/pdf/1512.07336.pdf
 
 ## 2014
 
