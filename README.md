@@ -241,6 +241,8 @@ Normalizing flows.	Kosiorek	http://akosiorek.github.io/ml/2018/04/03/norm_flows.
 
 Hamiltonian variational auto-encoder	Caterini, Doucet, Sejdinovic	https://arxiv.org/pdf/1805.11328.pdf	
 
+Causal generative neural networks.	Goudet, Kalainathan, Caillou, Guyon, Lopez-Paz, Sebag.	https://arxiv.org/pdf/1711.08936.pdf	https://github.com/GoudetOlivier/CGNN
+
 ## 2017
 
 beta-VAE: learning basic visual concepts with a constrained variational framework.	Higgins, Matthey, Pal, Burgess, Glorot, Botvinick, Mohamed, Lerchner	https://openreview.net/pdf?id=Sy2fzU9gl	
@@ -378,8 +380,9 @@ Weakly-supervised disentangling with recurrent transformations for 3D view synth
 
 Autoencoding beyond pixels using a learned similarity metric.	Boesen, Larsen, Sonderby, Larochelle, Winther	https://arxiv.org/pdf/1512.09300.pdf	https://github.com/andersbll/autoencoding_beyond_pixels
 
-Generating images with perceptual similarity metrics based on deep networks	Dosovitskiy, Brox	https://arxiv.org/pdf/1602.02644.pdf	https://github.com/shijx12/DeepSim
+Generating images with perceptual similarity metrics based on deep networks	Dosovitskiy, Brox.	https://arxiv.org/pdf/1602.02644.pdf	https://github.com/shijx12/DeepSim
 
+A note on the evaluation of generative models.	Theis, van den Oord, Bethge.	https://arxiv.org/pdf/1511.01844.pdf
 
 
 ## 2015
@@ -394,6 +397,8 @@ Deep convolutional inverse graphics network.	Kulkarni, Whitney, Kohli, Tenenbaum
 Learning structured output representation using deep conditional generative models.	Sohn, Yan, Lee	https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf	https://github.com/wsjeon/ConditionalVariationalAutoencoder
 
 Latent variable model with diversity-inducing mutual angular regularization.	Xie, Deng, Xing	https://arxiv.org/pdf/1512.07336.pdf
+
+DRAW: a recurrent neural network for image generation.	Gregor, Danihelka, Graves, Rezende, Wierstra.	https://arxiv.org/pdf/1502.04623.pdf	https://github.com/ericjang/draw
 
 ## 2014
 
