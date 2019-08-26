@@ -1,7 +1,7 @@
 # Awesome-VAEs
 Awesome work on VAEs, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 194 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 200 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
@@ -119,7 +119,14 @@ Unsupervised learning of spatiotemporally coherent metrics	Goroshin, Bruna, Tomp
 
 Temporal difference variational auto-encoder.	Gregor, Papamakarios, Besse, Buesing, Weber	https://arxiv.org/pdf/1806.03107.pdf	https://github.com/xqding/TD-VAE
 
+Representation learning with contrastive predictive coding.	van den Oord, Li, Vinyals	https://arxiv.org/pdf/1807.03748.pdf	https://github.com/davidtellez/contrastive-predictive-coding
+
+Representation disentanglement  for multi-task learning with application to fetal ultrasound	Meng, Pawlowski, Rueckert, Kainz	https://arxiv.org/pdf/1908.07885.pdf
+
+
 ## 2018
+
+TherML: The thermodynamics of machine learning.	Alemi, Fishcer	https://arxiv.org/pdf/1807.04162.pdf
 
 Leveraging the exact likelihood of deep latent variable models.	Mattei, Frellsen	https://arxiv.org/pdf/1802.04826.pdf
 
@@ -243,6 +250,8 @@ Hamiltonian variational auto-encoder	Caterini, Doucet, Sejdinovic	https://arxiv.
 
 Causal generative neural networks.	Goudet, Kalainathan, Caillou, Guyon, Lopez-Paz, Sebag.	https://arxiv.org/pdf/1711.08936.pdf	https://github.com/GoudetOlivier/CGNN
 
+Flow-GAN: Combining maximum likelihood and adversarial learning in generative models.	Grover, Dhar, Ermon	https://arxiv.org/pdf/1705.08868.pdf	https://github.com/ermongroup/flow-gan
+
 ## 2017
 
 beta-VAE: learning basic visual concepts with a constrained variational framework.	Higgins, Matthey, Pal, Burgess, Glorot, Botvinick, Mohamed, Lerchner	https://openreview.net/pdf?id=Sy2fzU9gl	
@@ -312,10 +321,11 @@ Disentangled representation learning GAN for pose-invariant face recognition.	Tr
 
 Improved Variational Autoencoders for text modeling using dilated convolutions.	Yang, Hu, Salakhutdinov, Berg-kirkpatrick	https://arxiv.org/pdf/1702.08139.pdf	
 
-improving variational auto-encoders using householder flow.	Tomczak, Welling	https://arxiv.org/pdf/1611.09630.pdf	https://github.com/jmtomczak/vae_householder_flow
+Improving variational auto-encoders using householder flow.	Tomczak, Welling	https://arxiv.org/pdf/1611.09630.pdf	https://github.com/jmtomczak/vae_householder_flow
 
-Sticking the landing: simple, lower-variance gradient estimators for variational inference.
-Roeder, Wu, Duvenaud	http://proceedings.mlr.press/v97/kingma19a/kingma19a.pdf	https://github.com/geoffroeder/iwae
+Sticking the landing: simple, lower-variance gradient estimators for variational inference. Roeder, Wu, Duvenaud.	http://proceedings.mlr.press/v97/kingma19a/kingma19a.pdf	https://github.com/geoffroeder/iwae
+
+VEEGAN: Reducing mode collapse in GANs using implicit variational learning.	Srivastava, Valkov, Russell, Gutmann.	https://arxiv.org/pdf/1705.07761.pdf	https://github.com/akashgit/VEEGAN
 
 
 ## 2016
@@ -383,6 +393,8 @@ Autoencoding beyond pixels using a learned similarity metric.	Boesen, Larsen, So
 Generating images with perceptual similarity metrics based on deep networks	Dosovitskiy, Brox.	https://arxiv.org/pdf/1602.02644.pdf	https://github.com/shijx12/DeepSim
 
 A note on the evaluation of generative models.	Theis, van den Oord, Bethge.	https://arxiv.org/pdf/1511.01844.pdf
+
+2016	InfoGAN: interpretable representation learning by information maximizing generative adversarial nets.	Chen, Duan, Houthooft, Schulman, Sutskever, Abbeel	https://arxiv.org/pdf/1606.03657.pdf	https://github.com/openai/InfoGAN
 
 
 ## 2015
