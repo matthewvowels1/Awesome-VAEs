@@ -1,5 +1,5 @@
 # Awesome-VAEs
-Awesome work on VAEs, disentanglement, representation learning, and generative models. 
+Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
 I gathered these resources (currently @ 200 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
@@ -315,7 +315,7 @@ Symmetric Variational Autoencoder and connections to adversarial learning.	Chen,
 
 Reconstruction-based disentanglement for pose-invariant face recognition.	Peng, Yu, Sohn, Metaxas, Chandraker	https://arxiv.org/pdf/1702.03041.pdf	https://github.com/zhangjunh/DR-GAN-by-pytorch
 
-Is maximum likelihood useful for representation learning?	Husz·r	https://www.inference.vc/maximum-likelihood-for-representation-learning-2/	
+Is maximum likelihood useful for representation learning?	Husz√°r	https://www.inference.vc/maximum-likelihood-for-representation-learning-2/	
 
 Disentangled representation learning GAN for pose-invariant face recognition.	Tran, Yin, Liu	http://zpascal.net/cvpr2017/Tran_Disentangled_Representation_Learning_CVPR_2017_paper.pdf	https://github.com/kayamin/DR-GAN
 
