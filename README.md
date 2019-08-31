@@ -1,11 +1,18 @@
 # Awesome-VAEs
 Awesome work on VAEs, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 200 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 206 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
+
+M^2VAE - derivation of a multi-modal variational autoencoder objective from the marginal joint log-likelihood.	Korthals	https://arxiv.org/pdf/1903.07303.pdf
+
+
+Contrastive variational autoencoder enhances salient features.	Abid, Zou	https://arxiv.org/pdf/1902.04601.pdf	https://github.com/abidlabs/contrastive_vae
+
+Learning deep latent-variable MRFs with amortized Bethe free-energy minimization.	Wiseman	https://openreview.net/pdf?id=ByeMHULt_N
 
 Learning latent superstructures in variational autoencoders for deep multidimensional clustering.	Li, Chen, Poon, Zhang	https://openreview.net/pdf?id=SJgNwi09Km
 
@@ -139,6 +146,8 @@ Variational attention for sequence-to-sequence models.	Bahuleyan, Mou, Vechtomov
 FactorVAE Disentangling by factorizing.	Kim, Minh	https://arxiv.org/pdf/1802.05983.pdf	
 
 Disentangling factors of variation with cycle-consistent variational autoencoders.	Jha, Anand, Singh, Veeravasarapu	https://arxiv.org/pdf/1804.10469.pdf	https://github.com/ananyahjha93/cycle-consistent-vae
+
+Density estimation: Variational autoencoders.	Rui Shu	http://ruishu.io/2018/03/14/vae/
 
 Isolating sources of disentanglement in VAEs.	Chen, Li, Grosse, Duvenaud	https://arxiv.org/pdf/1802.04942.pdf
 
@@ -412,6 +421,8 @@ Latent variable model with diversity-inducing mutual angular regularization.	Xie
 
 DRAW: a recurrent neural network for image generation.	Gregor, Danihelka, Graves, Rezende, Wierstra.	https://arxiv.org/pdf/1502.04623.pdf	https://github.com/ericjang/draw
 
+Variational Inference II.	Xing, Zheng, Hu, Deng.	https://www.cs.cmu.edu/~epxing/Class/10708-15/notes/10708_scribe_lecture13.pdf
+
 ## 2014
 
 Auto-encoding variational Bayes.	Kingma, Welling	https://arxiv.org/pdf/1312.6114.pdf
@@ -431,3 +442,7 @@ Transforming Auto-encoders.	Hinton, Krizhevsky, Wang	https://www.cs.toronto.edu/
 ## 2008
 
 Graphical models, exponential families, and variational inference.	Wainwright, Jordan et al
+
+## 2000
+
+The information bottleneck method.	Tishby, Pereira, Bialek	https://arxiv.org/pdf/physics/0004057.pdf
