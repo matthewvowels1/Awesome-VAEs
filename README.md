@@ -7,6 +7,8 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2019
 
+Reweighted expectation maximization.	Dieng, Paisley	https://arxiv.org/pdf/1906.05850.pdf	https://github.com/adjidieng/REM
+
 Learning deep latent-variable MRFs with amortized Bethe free-energy minimization.	Wiseman	https://openreview.net/pdf?id=ByeMHULt_N
 
 Contrastive variational autoencoder enhances salient features.	Abid, Zou	https://arxiv.org/pdf/1902.04601.pdf	https://github.com/abidlabs/contrastive_vae
@@ -406,6 +408,7 @@ A note on the evaluation of generative models.	Theis, van den Oord, Bethge.	http
 
 
 ## 2015
+Deep learning and the information bottleneck principle	Tishby, Zaslavsky	https://arxiv.org/pdf/1503.02406.pdf
 
 Training generative neural networks via Maximum Mean Discrepancy optimization.	Dziugaite, Roy, Ghahramani	https://arxiv.org/pdf/1505.03906.pdf
 
