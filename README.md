@@ -1,13 +1,31 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 208 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 233 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
 
+Linked variational autoencoders for inferring substitutable and supplementary items.	Rakesh, Wang, Shu	http://www.public.asu.edu/~skai2/files/wsdm_2019_lvae.pdf
+
+On the fairness of disentangled representations.	Locatello, Abbati, Rainforth, Bauer, Scholkopf, Bachem	https://arxiv.org/pdf/1905.13662.pdf
+
+Learning robust representations by projecting superficial statistics out.	Wang, He, Lipton, Xing	https://openreview.net/pdf?id=rJEjjoR9K7
+
+Understanding posterior collapse in generative latent variable models.	Lucas, Tucker, Grosse, Norouzi	https://openreview.net/pdf?id=r1xaVLUYuE
+
+On the transfer of inductive bias from simulation to the real world: a new disentanglement dataset.	Gondal, Wuthrich, Miladinovic, Locatello, Breidt, Volchkv, Akpo, Bachem, Scholkopf, Bauer	https://arxiv.org/pdf/1906.03292.pdf	https://github.com/rr-learning/disentanglement_dataset
+
+DIVA: domain invariant variational autoencoder.	Ilse, Tomczak, Louizos, Welling	https://arxiv.org/pdf/1905.10427.pdf	https://github.com/AMLab-Amsterdam/DIVA
+
+Comment: Variational Autoencoders as empirical Bayes.	Wang, Miller, Blei	http://www.stat.columbia.edu/~yixinwang/papers/WangMillerBlei2019.pdf	
+
+Fast MVAE: joint separation and classification of mixed sources based on multichannel variational autoencoder with auxiliary classifier.	Li, Kameoka, Makino	https://ieeexplore.ieee.org/abstract/document/8682623	
+
 Reweighted expectation maximization.	Dieng, Paisley	https://arxiv.org/pdf/1906.05850.pdf	https://github.com/adjidieng/REM
+
+Semisupervised text classification by variational autoencoder.	Xu, Tan	https://ieeexplore.ieee.org/abstract/document/8672806	
 
 Learning deep latent-variable MRFs with amortized Bethe free-energy minimization.	Wiseman	https://openreview.net/pdf?id=ByeMHULt_N
 
@@ -131,8 +149,33 @@ Representation disentanglement  for multi-task learning with application to feta
 
 M$2$VAE - derivation of a multi-modal variational autoencoder objective from the marginal joint log-likelihood.	Korthals	https://arxiv.org/pdf/1903.07303.pdf
 
+Predicting visual memory schemas with variational autoencoders.	Kyle-Davidson, Bors, Evans	https://arxiv.org/pdf/1907.08514.pdf
+
+T-CVAE: Transformer -based conditioned variational autoencoder for story completion.	Wang, Wan	https://www.ijcai.org/proceedings/2019/0727.pdf	https://github.com/sodawater/T-CVAE
+
+PuVAE: A variational autoencoder to purify adversarial examples.	Hwang, Park, Jang, Yoon, Cho	https://arxiv.org/pdf/1903.00585.pdf
+
+Coupled VAE: Improved accuracy and robustness of a variational autoencoder. 	Cao, Li, Nelson	https://arxiv.org/pdf/1906.00536.pdf
+
+D-VAE: A variational autoencoder for directed acyclic graphs.	Zhang, Jiang, Cui, Garnett, Chen	https://arxiv.org/abs/1904.11088	https://github.com/muhanzhang/D-VAE
+
+Are disentangled representations helpful for abstract reasoning?	van Steenkiste, Locatello, Schmidhuber, Bachem	https://arxiv.org/pdf/1905.12506.pdf
+
+A heuristic for unsupervised model selection for variational disentangled representation learning.	Duan, Watters, Matthey, Burgess, Lerchner, Higgins	https://arxiv.org/pdf/1905.12614.pdf
+
+Dual space learning with variational autoencoders.	Okamoto, Suzuki, Higuchi, Ohsawa, Matsuo	https://pdfs.semanticscholar.org/ea70/6495d4a6214b3d6174bb7fd99c5a9c34c2e6.pdf
+
+Variational autoencoders for sparse and overdispersed discrete data.	Zhao, Rai, Du, Buntine	https://arxiv.org/pdf/1905.00616.pdf
 
 ## 2018
+
+Emergence of invariance and disentanglement in deep representations.	Achille, Soatto	https://arxiv.org/pdf/1706.01350.pdf
+
+Variational memory encoder-decoder.	Le, Tran, Nguyen, Venkatesh	https://arxiv.org/pdf/1807.09950.pdf	https://github.com/thaihungle/VMED
+
+Variational autoencoders for collaborative filtering.	Liang, Krishnan, Hoffman, Jebara	https://arxiv.org/pdf/1802.05814.pdf
+
+Invariant representations without adversarial training.	Moyer, Gao, Brekelmans, Steeg, Galstyan	http://papers.nips.cc/paper/8122-invariant-representations-without-adversarial-training.pdf	https://github.com/dcmoyer/inv-rep
 
 Density estimation: Variational autoencoders.	Rui Shu	http://ruishu.io/2018/03/14/vae/
 
@@ -262,7 +305,12 @@ Causal generative neural networks.	Goudet, Kalainathan, Caillou, Guyon, Lopez-Pa
 
 Flow-GAN: Combining maximum likelihood and adversarial learning in generative models.	Grover, Dhar, Ermon	https://arxiv.org/pdf/1705.08868.pdf	https://github.com/ermongroup/flow-gan
 
+Linked causal variational autoencoder for inferring paired spillover effects.	Rakesh, Guo, Moraffah, Agarwal, Liu	https://arxiv.org/pdf/1808.03333.pdf	https://github.com/rguo12/CIKM18-LCVA
+
+
 ## 2017
+
+Causal effect inference with deep latent variable models.	Louizos, Shalit, Mooij, Sontag, Zemel, Welling	https://arxiv.org/pdf/1705.08821.pdf	https://github.com/AMLab-Amsterdam/CEVAE
 
 beta-VAE: learning basic visual concepts with a constrained variational framework.	Higgins, Matthey, Pal, Burgess, Glorot, Botvinick, Mohamed, Lerchner	https://openreview.net/pdf?id=Sy2fzU9gl	
 
@@ -339,6 +387,8 @@ VEEGAN: Reducing mode collapse in GANs using implicit variational learning.	Sriv
 
 
 ## 2016
+
+Domain-adversarial training of neural networks.	Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand, Lempitsky	https://arxiv.org/pdf/1505.07818.pdf
 
 Tutorial on Variational Autoencoders.	Doersch	https://arxiv.org/pdf/1606.05908.pdf
 
