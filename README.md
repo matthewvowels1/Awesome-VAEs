@@ -1,11 +1,33 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 233 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 256 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
+
+Data augmentation using variational autoencoder for embedding based speaker verification.	Wu, Wang, Qian, Yu	https://zhanghaowu.me/assets/VAE_Data_Augmentation_proceeding.pdf
+
+EEG-based adaptive driver-vehicle interface using variational autoencoder and PI-TSVM.	Bi, Zhang, Lian	https://www.researchgate.net/profile/Luzheng_Bi2/publication/335619300_EEG-Based_Adaptive_Driver-Vehicle_Interface_Using_Variational_Autoencoder_and_PI-TSVM/links/5d70bb234585151ee49e5a30/EEG-Based-Adaptive-Driver-Vehicle-Interface-Using-Variational-Autoencoder-and-PI-TSVM.pdf
+
+Neural gaussian copula for variational autoencoder	Wang, Wang	https://arxiv.org/pdf/1909.03569.pdf
+
+Enhancing VAEs for collaborative filtering: Flexible priors and gating mechanisms.	Kim, Suh	http://delivery.acm.org/10.1145/3350000/3347015/p403-kim.pdf?ip=86.162.136.199&id=3347015&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1568726810_89cfa7cbc7c1b0663405d4446f9fce85
+
+Riemannian normalizing flow on variational wasserstein autoencoder for text modeling.	Wang, Wang	https://arxiv.org/pdf/1904.02399.pdf
+
+Disentanglement with hyperspherical latent spaces using diffusion variational autoencoders.	Rey	https://openreview.net/pdf?id=SylFDSU6Sr
+
+Learning deep representations by mutual information estimation and maximization.	Hjelm, Fedorov, Lavoie-Marchildon, Grewal, Bachman, Trischler, Bengio	https://arxiv.org/pdf/1808.06670.pdf	https://github.com/rdevon/DIM
+
+Novel tracking approach based on fully-unsupervised disentanglement of the geometrical factors of variation.	Vladymyrov, Ariga	https://arxiv.org/pdf/1909.04427.pdf
+
+Real time trajectory prediction using conditional generative models.	Gomez-Gonzalez, Prokudin, Scholkopf, Peters	https://arxiv.org/pdf/1909.03895.pdf
+
+Disentanglement challenge: from regularization to reconstruction.	Qiao, Li, Cai	https://openreview.net/pdf?id=ByecPrUaHH
+
+Improved disentanglement through aggregated convolutional feature maps.	Seitzer	https://openreview.net/pdf?id=ryxOvH86SH
 
 Linked variational autoencoders for inferring substitutable and supplementary items.	Rakesh, Wang, Shu	http://www.public.asu.edu/~skai2/files/wsdm_2019_lvae.pdf
 
@@ -167,7 +189,15 @@ Dual space learning with variational autoencoders.	Okamoto, Suzuki, Higuchi, Ohs
 
 Variational autoencoders for sparse and overdispersed discrete data.	Zhao, Rai, Du, Buntine	https://arxiv.org/pdf/1905.00616.pdf
 
+Variational auto-decoder.	Zadeh, Lim, Liang, Morency.	https://arxiv.org/pdf/1903.00840.pdf
+
+Causal discovery with attention-based convolutional neural networks. 	Naura, Bucur, Seifert 	https://www.mdpi.com/2504-4990/1/1/19/pdf
+
 ## 2018
+
+Counterfactuals uncover the modular structure of deep generative models. 	Besserve, Sun, Scholkopf. https://arxiv.org/pdf/1812.03253.pdf
+
+Learning independent causal mechanisms.	Parascandolo, Kilbertus, Rojas-Carulla, Scholkopf	https://arxiv.org/pdf/1712.00961.pdf
 
 Emergence of invariance and disentanglement in deep representations.	Achille, Soatto	https://arxiv.org/pdf/1706.01350.pdf
 
@@ -307,8 +337,19 @@ Flow-GAN: Combining maximum likelihood and adversarial learning in generative mo
 
 Linked causal variational autoencoder for inferring paired spillover effects.	Rakesh, Guo, Moraffah, Agarwal, Liu	https://arxiv.org/pdf/1808.03333.pdf	https://github.com/rguo12/CIKM18-LCVA
 
+Unsupervised anomaly detection via variational auto-encoder for seasonal KPIs in web applications. 	Xu, Chen, Zhao, Li, Bu, Li, Liu, Zhao, Pei, Feng, Chen, Wang, Qiao	https://arxiv.org/pdf/1802.03903.pdf
 
 ## 2017
+
+Discovering causal signals in images	. Lopez-Paz, Nishihara, Chintala, Scholkopf, Bottou 	https://arxiv.org/pdf/1605.08179.pdf
+
+Autoencoding variational inference for topic models.	Srivastava, Sutton	https://arxiv.org/pdf/1703.01488.pdf
+
+Hidden Markov model variational autoencoder for acoustic unit discovery. 	Ebbers, Heymann, Drude, Glarner, Haeb-Umbach, Raj	https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1160.PDF
+
+Application of variational autoencoders for aircraft turbomachinery design. 	Zalger	http://cs229.stanford.edu/proj2017/final-reports/5231979.pdf
+
+Semi-supervised learning with variational autoencoders.	Keng	 http://bjlkeng.github.io/posts/semi-supervised-learning-with-variational-autoencoders/
 
 Causal effect inference with deep latent variable models.	Louizos, Shalit, Mooij, Sontag, Zemel, Welling	https://arxiv.org/pdf/1705.08821.pdf	https://github.com/AMLab-Amsterdam/CEVAE
 
@@ -385,8 +426,12 @@ Sticking the landing: simple, lower-variance gradient estimators for variational
 
 VEEGAN: Reducing mode collapse in GANs using implicit variational learning.	Srivastava, Valkov, Russell, Gutmann.	https://arxiv.org/pdf/1705.07761.pdf	https://github.com/akashgit/VEEGAN
 
+Discovering discrete latent topics with neural variational inference.	Miao, Grefenstette, Blunsom	https://arxiv.org/pdf/1706.00359.pdf
+
 
 ## 2016
+
+Neural variational inference for text processing. 	Miao, Yu, Grefenstette,  Blunsom.	https://arxiv.org/pdf/1511.06038.pdf
 
 Domain-adversarial training of neural networks.	Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand, Lempitsky	https://arxiv.org/pdf/1505.07818.pdf
 
