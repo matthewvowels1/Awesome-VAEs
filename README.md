@@ -1,13 +1,21 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 256 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 263 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
 
+Variational attention using articulatory priors for generating code mixed speech using monolingual corpora.	Rallabandi, Black.	https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1103.pdf
+
+One-class collaborative filtering with the queryable variational autoencoder.	Wu, Bouadjenek, Sanner.	https://people.eng.unimelb.edu.au/mbouadjenek/papers/SIGIR_Short_2019.pdf
+
+Predictive auxiliary variational autoencoder for representation learning of global speech characteristics.	Springenberg, Lakomkin, Weber, Wermter.	https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2845.pdf
+
 Data augmentation using variational autoencoder for embedding based speaker verification.	Wu, Wang, Qian, Yu	https://zhanghaowu.me/assets/VAE_Data_Augmentation_proceeding.pdf
+
+One-shot voice conversion with disentangled representations by leveraging phonetic posteriograms.	Mohammadi, Kim.	https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1798.pdf
 
 EEG-based adaptive driver-vehicle interface using variational autoencoder and PI-TSVM.	Bi, Zhang, Lian	https://www.researchgate.net/profile/Luzheng_Bi2/publication/335619300_EEG-Based_Adaptive_Driver-Vehicle_Interface_Using_Variational_Autoencoder_and_PI-TSVM/links/5d70bb234585151ee49e5a30/EEG-Based-Adaptive-Driver-Vehicle-Interface-Using-Variational-Autoencoder-and-PI-TSVM.pdf
 
@@ -338,6 +346,12 @@ Flow-GAN: Combining maximum likelihood and adversarial learning in generative mo
 Linked causal variational autoencoder for inferring paired spillover effects.	Rakesh, Guo, Moraffah, Agarwal, Liu	https://arxiv.org/pdf/1808.03333.pdf	https://github.com/rguo12/CIKM18-LCVA
 
 Unsupervised anomaly detection via variational auto-encoder for seasonal KPIs in web applications. 	Xu, Chen, Zhao, Li, Bu, Li, Liu, Zhao, Pei, Feng, Chen, Wang, Qiao	https://arxiv.org/pdf/1802.03903.pdf
+
+Mutual information neural estimation.	Belghazi, Baratin, Rajeswar, Ozair, Bengio, Hjelm.	https://arxiv.org/pdf/1801.04062.pdf	https://github.com/sungyubkim/MINE-Mutual-Information-Neural-Estimation- https://github.com/mzgubic/MINE
+
+Explorations in homeomorphic variational auto-encoding.	Falorsi, de Haan, Davidson, Cao, Weiler, Forre, Cohen.	https://arxiv.org/pdf/1807.04689.pdf	https://github.com/pimdh/lie-vae
+
+On variational lower bounds of mutual information.	Poole, Ozair, van den Oord, Alemi, Tucker	http://bayesiandeeplearning.org/2018/papers/136.pdf
 
 ## 2017
 
