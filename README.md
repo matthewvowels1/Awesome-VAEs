@@ -1,11 +1,28 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 263 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 277 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
+
+Hamiltonian generative networks.	Toth, Rezende, Jaegle, Racaniere, Botev, Higgins	https://128.84.21.199/pdf/1909.13789.pdf
+
+LAVAE: Disentangling location and appearance. Dittadi, Winther	https://arxiv.org/pdf/1909.11813.pdf
+
+Interpretable models in probabilistic machine learning.	Kim	https://ora.ox.ac.uk/objects/uuid:b238ed7d-7155-4860-960e-6227c7d688fb/download_file?file_format=pdf&safe_filename=PhD_Thesis_of_University_of_Oxford.pdf&type_of_work=Thesis
+
+
+Disentangling speech  and non-speech components for building robust acoustic models from found data.	Gurunath, Rallabandi, Black	https://arxiv.org/pdf/1909.11727.pdf
+
+Joint separation, dereverberation and classification of multiple sources using multichannel variational autoencoder with auxiliary classifier.	Inoue, Kameoka, Li, Makino	http://pub.dega-akustik.de/ICA2019/data/articles/000906.pdf
+
+SuperVAE: Superpixelwise variational autoencoder for salient object detection.	Li, Sun, Guo	https://www.aaai.org/ojs/index.php/AAAI/article/view/4876
+
+Implicit discriminator in variational autoencoder. 	Munjal, Paul, Krishnan	https://arxiv.org/pdf/1909.13062.pdf
+
+TransGaGa: Geometry-aware unsupervised image-to-image translation.	Wu, Cao, Li, Qian, Loy	http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_TransGaGa_Geometry-Aware_Unsupervised_Image-To-Image_Translation_CVPR_2019_paper.pdf
 
 Variational attention using articulatory priors for generating code mixed speech using monolingual corpora.	Rallabandi, Black.	https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1103.pdf
 
@@ -203,6 +220,12 @@ Causal discovery with attention-based convolutional neural networks. 	Naura, Buc
 
 ## 2018
 
+Bias and generalization in deep generative models: an empirical study.	Zhao, Ren, Yuan, Song, Goodman, Ermon	https://arxiv.org/pdf/1811.03259.pdf	https://ermongroup.github.io/blog/bias-and-generalization-dgm/ https://github.com/ermongroup/BiasAndGeneralization/tree/master/Evaluate
+
+On variational lower bounds of mutual information.	Poole, Ozair, van den Oord, Alemi, Tucker	http://bayesiandeeplearning.org/2018/papers/136.pdf
+
+GAN - why it is so hard to train generative adversarial networks	. Hui	https://medium.com/@jonathan_hui/gan-why-it-is-so-hard-to-train-generative-advisory-networks-819a86b3750b
+
 Counterfactuals uncover the modular structure of deep generative models. 	Besserve, Sun, Scholkopf. https://arxiv.org/pdf/1812.03253.pdf
 
 Learning independent causal mechanisms.	Parascandolo, Kilbertus, Rojas-Carulla, Scholkopf	https://arxiv.org/pdf/1712.00961.pdf
@@ -351,7 +374,7 @@ Mutual information neural estimation.	Belghazi, Baratin, Rajeswar, Ozair, Bengio
 
 Explorations in homeomorphic variational auto-encoding.	Falorsi, de Haan, Davidson, Cao, Weiler, Forre, Cohen.	https://arxiv.org/pdf/1807.04689.pdf	https://github.com/pimdh/lie-vae
 
-On variational lower bounds of mutual information.	Poole, Ozair, van den Oord, Alemi, Tucker	http://bayesiandeeplearning.org/2018/papers/136.pdf
+Hierarchical variational memory network for dialogue generation.	Chen, Ren, Tang, Zhao, Yin	http://delivery.acm.org/10.1145/3190000/3186077/p1653-chen.pdf?ip=86.162.136.199&id=3186077&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1569938843_c07ad21d173fc64a44a22fd6521140cb
 
 ## 2017
 
@@ -442,8 +465,12 @@ VEEGAN: Reducing mode collapse in GANs using implicit variational learning.	Sriv
 
 Discovering discrete latent topics with neural variational inference.	Miao, Grefenstette, Blunsom	https://arxiv.org/pdf/1706.00359.pdf
 
+Variational approaches for auto-encoding generative adversarial networks. 	Rosca, Lakshminarayana, Warde-Farley, Mohamed	https://arxiv.org/pdf/1706.04987.pdf
+
 
 ## 2016
+
+Deep feature consistent variational autoencoder.	Hou, Shen, Sun, Qiu	https://arxiv.org/pdf/1610.00291.pdf	https://github.com/sbavon/Deep-Feature-Consistent-Variational-AutoEncoder-in-Tensorflow
 
 Neural variational inference for text processing. 	Miao, Yu, Grefenstette,  Blunsom.	https://arxiv.org/pdf/1511.06038.pdf
 
