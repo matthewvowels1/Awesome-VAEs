@@ -1,11 +1,58 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 277 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 300 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
+
+Weakly supervised disentanglement with guarantees.	Shu, Chen, Kumar, Ermon, Poole	https://arxiv.org/pdf/1910.09772.pdf
+
+Demystifying inter-class disentanglement.	Gabbay, Hoshen	https://arxiv.org/pdf/1906.11796.pdf
+
+Spectral regularization for combating mode collapse in GANs.	Liu, Tang, Xie, Qiu	https://arxiv.org/pdf/1908.10999.pdf
+
+Geometric disentanglement for generative latent shape models.	Aumentado-Armstrong, Tsogkas, Jepson, Dickinson	https://arxiv.org/pdf/1908.06386.pdf
+
+Cross-dataset person re-identification via unsupervised pose disentanglement and adaptation.	Li, Lin, Lin, Wang	https://arxiv.org/pdf/1909.09675.pdf
+
+Identity from here, pose from there: self-supervised disentanglement and generation of objects using unlabeled videos.	Xiao, Liu, Lee	https://web.cs.ucdavis.edu/~yjlee/projects/iccv2019_disentangle.pdf
+
+Content and style disentanglement for artistic style transfer.	Kotovenko, Sanakoyeu, Lang, Ommer	https://compvis.github.io/content-style-disentangled-ST/paper.pdf
+
+Unsupervised robust disentangling of latent characteristics for image synthesis.	Esser, Haux, Ommer	https://arxiv.org/pdf/1910.10223.pdf
+
+LADN: local adversarial disentangling network for facial makeup and de-makeup.	Gu, Wang, Chiu, Tai, Tang	https://arxiv.org/pdf/1904.11272.pdf
+
+Video compression with rate-distortion autoencoders.	Habibian, van Rozendaal, Tomczak, Cohen	https://arxiv.org/pdf/1908.05717.pdf
+
+Variable rate deep image compression with a conditional autoencoder.	Choi, El-Khamy, Lee	https://arxiv.org/pdf/1909.04802.pdf
+
+Memorizing normality to detect anomaly: memory-augmented deep autoencoder for unsupervised anomaly detection.	Gong, Liu, Le, Saha	https://arxiv.org/pdf/1904.02639.pdf
+
+AVT: unsupervise d learning of transformation equivariant representations by autoencoding variational transformations.	Qi, Zhang, Chen, Tian	https://arxiv.org/pdf/1903.10863.pdf
+
+Deep clustering by Gaussian mixture variational autoencoders with graph embedding.	Yang, Cheung, Li, Fang	http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Deep_Clustering_by_Gaussian_Mixture_Variational_Autoencoders_With_Graph_Embedding_ICCV_2019_paper.pdf
+
+Variational adversarial active learning.	Sinha, Ebrahimi, Darrell	https://arxiv.org/pdf/1904.00370.pdf
+
+Variational few-shot learning.	Zhang, Zhao, Ni, Xu, Yang	http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.pdf
+
+Multi-angle point cloud-VAE: unsupervised feature learning for 3D point clouds from multiple angles by joint self-reconstruction and half-to-half prediction.	Han, Wang, Liu, Zwicker	https://arxiv.org/pdf/1907.12704.pdf
+
+LayoutVAE: stochastic scene layout generation from a label set.	 Jyothi, Durand, He, Sigal, Mori	https://arxiv.org/pdf/1907.10719.pdf
+
+VV-NET: Voxel VAE Net with group convolutions for point cloud segmentation.	Meng, Gao, Lai, Manocha	https://arxiv.org/pdf/1811.04337.pdf
+
+Bayes-Factor-VAE: hierarchical bayesian deep auto-encoder models for factor disentanglement.	Kim, Wang, Sahu, Pavlovic	https://arxiv.org/pdf/1909.02820.pdf
+
+
+Robust ordinal VAE: Employing noisy pairwise comparisons for disentanglement.	Chen, Batmanghelich	https://arxiv.org/pdf/1910.05898.pdf
+
+Evaluating disentangled representations.	Sepliarskaia, A. and Kiseleva, J. and de Rijke, M.	https://arxiv.org/pdf/1910.05587.pdf
+
+A stable variational autoencoder for text modelling.	Li, R. and Li, X. and Lin, C. and Collinson, M. and Mao, R.	https://abdn.pure.elsevier.com/en/publications/a-stable-variational-autoencoder-for-text-modelling
 
 Hamiltonian generative networks.	Toth, Rezende, Jaegle, Racaniere, Botev, Higgins	https://128.84.21.199/pdf/1909.13789.pdf
 
