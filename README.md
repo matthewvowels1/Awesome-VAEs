@@ -1,11 +1,122 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 300 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 369 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 ## 2019
+
+Don't blame the ELBO! A linear VAE perspective on posterior collapse.	Lucas, Tucker, Grosse, Norouzi	https://128.84.21.199/pdf/1911.02469.pdf
+
+Bridging the ELBO and MMD.	Ucar	https://arxiv.org/pdf/1910.13181.pdf
+
+Learning disentangled representations for counterfactual regression. 	Hassanpour, Greiner	https://pdfs.semanticscholar.org/1df4/204e14da51b05a14781e2a4dc3e0d7da562d.pdf
+
+Learning disentangled representations for recommendation.	Ma, Zhou, Cui, Yang, Zhu	https://arxiv.org/pdf/1910.14238.pdf
+
+A vector quantized variational autoencoder (VQ-VAE) autoregressive neural F0 model for statistical parametric speech synthesis.	Wang, Takaki, Yamagishi, King, Tokuda	https://ieeexplore.ieee.org/abstract/document/8884734
+
+Diversity-aware event prediction based on a conditional variational autoencoder with reconstruction.	Kiyomaru, Omura, Murawaki, Kawahara, Kurohashi	https://www.aclweb.org/anthology/D19-6014.pdf
+
+Learning multimodal representations with factorized deep generative models.	Tsai, Liang, Zadeh, Morency, Salakhutdinov	https://pdfs.semanticscholar.org/7416/6384ad391513e8e8bf48cbeaff2516b8c332.pdf
+
+High-dimensional nonlinear profile monitoring based on deep probabilistic autoencoders.	Sergin, Yan	https://arxiv.org/pdf/1911.00482.pdf
+
+Leveraging directed causal discovery to detect latent common causes.	Lee, Hart, Richens, Johri	https://arxiv.org/pdf/1910.10174.pdf
+
+Robust discrimination and generation of faces using compact, disentangled embeddings.	Browatzki, Wallraven	http://openaccess.thecvf.com/content_ICCVW_2019/papers/RSL-CV/Browatzki_Robust_Discrimination_and_Generation_of_Faces_using_Compact_Disentangled_Embeddings_ICCVW_2019_paper.pdf
+
+Coulomb Autoencoders.	Sansone, Ali, Sun	https://arxiv.org/pdf/1802.03505.pdf
+
+Contrastive learning of structured world models. 	Kipf, Pol, Welling	https://arxiv.org/pdf/1911.12247.pdf
+
+No representation without transformation.	Giannone, Masci, Osendorfer	https://pgr-workshop.github.io/img/PGR007.pdf
+
+Neural density estimation. 	Papamakarios	https://arxiv.org/pdf/1910.13233.pdf
+
+Variational autoencoder-based approach for rail defect identification. 	Wei, Ni	http://www.dpi-proceedings.com/index.php/shm2019/article/view/32432
+
+Variational learning with disentanglement-pytorch.	Abdi, Abolmaesumi, Fels	https://openreview.net/pdf?id=rJgUsFYnir
+
+PVAE: learning disentangled representations with intrinsic dimension via approximated L0 regularization.	Shi, Glocker, Castro	https://openreview.net/pdf?id=HJg8stY2oB
+
+Mixed-curvature variational autoencoders. 	Skopek, Ganea, Becigneul	https://arxiv.org/pdf/1911.08411.pdf
+
+Continuous hierarchical representations with poincare variational autoencoders. 	Mathieu, Le Lan, Maddison, Tomioka	https://arxiv.org/pdf/1901.06033.pdf
+
+VIREL: A variational inference framework for reinforcement learning.	Fellows, Mahajan, Rudner, Whiteson	https://arxiv.org/pdf/1811.01132.pdf
+
+Disentangling video with independent prediction.	Whitney, Fergus	https://arxiv.org/pdf/1901.05590.pdf
+
+Disentangling state space representations	Miladinovic, Gondal, Scholkopf, Buhmann, Bauer	https://arxiv.org/pdf/1906.03255.pdf
+
+Likelihood conribution based multi-scale architecture for generative flows.	Das, Abbeel, Spanos	https://arxiv.org/pdf/1908.01686.pdf
+
+AlignFlow: cycle consistent learning from multiple domains via normalizing flows	Grover, Chute, Shu, Cao, Ermon	https://arxiv.org/pdf/1905.12892.pdf
+
+
+IB-GAN: disentangled representation learning with information bottleneck GAN. 	Jeon, Lee, Kim	https://openreview.net/forum?id=ryljV2A5KX
+
+Learning hierarchical priors in VAEs.	 Klushyn, Chen, Kurle, Cseke, van der Smagt	https://papers.nips.cc/paper/8553-learning-hierarchical-priors-in-vaes.pdf
+
+ODE2VAE: Deep generative second order ODEs with Bayesian neural networks.	Yildiz, Heinonen, Lahdesmaki	https://papers.nips.cc/paper/9497-ode2vae-deep-generative-second-order-odes-with-bayesian-neural-networks.pdf
+
+Explicitly disentangling image content from translation and rotation with spatial-VAE.	Bepler, Zhong, Kelley, Brignole, Berger	https://papers.nips.cc/paper/9677-explicitly-disentangling-image-content-from-translation-and-rotation-with-spatial-vae.pdf
+
+A primal-dual link between GANs and autoencoders.	Husain, Nock, Williamson	https://papers.nips.cc/paper/8333-a-primal-dual-link-between-gans-and-autoencoders.pdf
+
+Exact rate-distortion in autoencoders via echo noise.	Brekelmans, Moyer, Galstyan, ver Steeg	https://papers.nips.cc/paper/8644-exact-rate-distortion-in-autoencoders-via-echo-noise.pdf
+
+Direct optimization through arg max for discrete variational auto-encoder.	Lorberbom, Jaakkola, Gane, Hazan	https://papers.nips.cc/paper/8851-direct-optimization-through-arg-max-for-discrete-variational-auto-encoder.pdf
+
+Semi-implicit graph variational auto-encoders.	Hasanzadeh, Hajiramezanali, Narayanan, Duffield, Zhou, Qian	https://papers.nips.cc/paper/9255-semi-implicit-graph-variational-auto-encoders.pdf
+
+The continuous Bernoulli: fixing a pervasive error in variational autoencoders.	Loaiza-Ganem, Cunningham	https://papers.nips.cc/paper/9484-the-continuous-bernoulli-fixing-a-pervasive-error-in-variational-autoencoders.pdf
+
+Provable gradient variance guarantees for black-box variational inference. 	Domke	https://papers.nips.cc/paper/8325-provable-gradient-variance-guarantees-for-black-box-variational-inference.pdf
+
+Conditional structure generation through graph variational generative adversarial nets.	Yang, Zhuang, Shi, Luu, Li	https://papers.nips.cc/paper/8415-conditional-structure-generation-through-graph-variational-generative-adversarial-nets.pdf
+
+Scalable spike source localization in extracellular recordings using amortized variational inference.	Hurwitz, Xu, Srivastava, Buccino, Hennig	https://papers.nips.cc/paper/8720-scalable-spike-source-localization-in-extracellular-recordings-using-amortized-variational-inference.pdf
+
+A latent variational framework for stochastic optimization.	Casgrain	https://papers.nips.cc/paper/8802-a-latent-variational-framework-for-stochastic-optimization.pdf
+
+MAVEN: multi-agent variational exploration.	Mahajan, Rashid, Samvelyan, Whiteson	https://papers.nips.cc/paper/8978-maven-multi-agent-variational-exploration.pdf
+
+Variational graph recurrent neural networks.	Hajiramezanali, Hasanzadeh, Narayanan, Duffield, Zhou, Qian	https://papers.nips.cc/paper/9254-variational-graph-recurrent-neural-networks.pdf
+
+The thermodynamic variational objective.	Masrani, Le, Wood	https://papers.nips.cc/paper/9328-the-thermodynamic-variational-objective.pdf
+
+Variational temporal abstraction. 	Kim, Ahn, Bengio	https://papers.nips.cc/paper/9332-variational-temporal-abstraction.pdf
+
+Exploiting video sequences for unsupervised disentangling in generative adversarial networks.	Tuesca, Uzal	https://arxiv.org/pdf/1910.11104.pdf
+
+Couple-VAE: mitigating the encoder-decoder incompatibility in variational text modeling with coupled deterministic networks.		https://openreview.net/pdf?id=SJlo_TVKwS
+
+Variational mixture-of-experts autoencoders for multi-modal deep generative models. Shi, Siddharth, Paige, Torr	https://papers.nips.cc/paper/9702-variational-mixture-of-experts-autoencoders-for-multi-modal-deep-generative-models.pdf
+
+Invertible convolutional flow.	Karami, Schuurmans, Sohl-Dickstein, Dinh, Duckworth	https://papers.nips.cc/paper/8801-invertible-convolutional-flow.pdf
+
+Implicit posterior variational inference for deep Gaussian processes.	Yu, Chen, Dai, Low, Jaillet	https://papers.nips.cc/paper/9593-implicit-posterior-variational-inference-for-deep-gaussian-processes.pdf
+
+MaCow: Masked convolutional generative flow.	Ma, Kong, Zhang, Hovy	https://papers.nips.cc/paper/8824-macow-masked-convolutional-generative-flow.pdf
+
+Residual flows for invertible generative modeling.	Chen, Behrmann, Duvenaud, Jacobsen	https://papers.nips.cc/paper/9183-residual-flows-for-invertible-generative-modeling.pdf
+
+Discrete flows: invertible generative models of discrete data.	Tran, Vafa, Agrawal, Dinh, Poole	https://papers.nips.cc/paper/9612-discrete-flows-invertible-generative-models-of-discrete-data.pdf
+
+Re-examination of the role of latent variables in sequence modeling. 	Lai, Dai, Yang, Yoo	https://papers.nips.cc/paper/8996-re-examination-of-the-role-of-latent-variables-in-sequence-modeling.pdf
+
+Learning-in-the-loop optimization: end-to-end control and co-design of soft robots through learned deep latent representations.	Spielbergs, Zhao, Hu, Du, Matusik, Rus	https://papers.nips.cc/paper/9038-learning-in-the-loop-optimization-end-to-end-control-and-co-design-of-soft-robots-through-learned-deep-latent-representations.pdf
+
+Triad constraints for learning causal structure of latent variables.	Cai, Xie, Glymour, Hao, Zhang	https://papers.nips.cc/paper/9448-triad-constraints-for-learning-causal-structure-of-latent-variables.pdf
+
+Disentangling influence: using disentangled representations to audit model predictions.	Marx, Phillips, Friedler, Scheidegger, Venkatasubramanian	https://papers.nips.cc/paper/8699-disentangling-influence-using-disentangled-representations-to-audit-model-predictions.pdf
+
+Symmetry-based disentangled representation learning requires interaction with environments.	Caselles-Dupre, Ortiz, Filliat	https://papers.nips.cc/paper/8709-symmetry-based-disentangled-representation-learning-requires-interaction-with-environments.pdf
+
+
 
 Weakly supervised disentanglement with guarantees.	Shu, Chen, Kumar, Ermon, Poole	https://arxiv.org/pdf/1910.09772.pdf
 
@@ -265,7 +376,28 @@ Variational auto-decoder.	Zadeh, Lim, Liang, Morency.	https://arxiv.org/pdf/1903
 
 Causal discovery with attention-based convolutional neural networks. 	Naura, Bucur, Seifert 	https://www.mdpi.com/2504-4990/1/1/19/pdf
 
+Variational laplace autoencoders.	Park, Kim, Kim	http://proceedings.mlr.press/v97/park19a/park19a.pdf
+
+Variational autoencoders with normalizing flow decoders.		https://openreview.net/forum?id=r1eh30NFwB
+
+Gaussian process priors for view-aware inference.	Hou, Heljakka, Solin	https://arxiv.org/pdf/1912.03249.pdf
+
 ## 2018
+
+Normalizing Flows Tutorial, Part 2: Modern Normalizing Flows.	Eric Jang	https://blog.evjang.com/2018/01/nf2.html
+
+Neural autoregressive flows.	Huang, Krueger, Lacoste, Courville	https://medium.com/element-ai-research-lab/neural-autoregressive-flows-f164d6b8e462 https://arxiv.org/pdf/1804.00779.pdf	https://github.com/CW-Huang/NAF
+
+Gaussian process prior variational autoencoders.	Casale, Dalca, Sagletti, Listgarten, Fusi	https://papers.nips.cc/paper/8238-gaussian-process-prior-variational-autoencoders.pdf
+
+ACVAE-VC: non-parallel many-to-many voice conversion with auxiliary classifier variational autoencoder.	Kameoka, Kaneko, Tanaka, Hojo	https://arxiv.org/pdf/1808.05092.pdf
+
+Discovering interpretable representations for both deep generative and discriminative models.	Adel, Ghahramani, Weller	http://mlg.eng.cam.ac.uk/adrian/ICML18-Discovering.pdf
+
+Autoregressive quantile networks for generative modelling	. Ostrovski, Dabey, Munos	 https://arxiv.org/pdf/1806.05575.pdf
+
+
+Probabilistic video generation using holistic attribute control.	He, Lehrmann, Marino, Mori, Sigal	https://arxiv.org/pdf/1803.08085.pdf
 
 Bias and generalization in deep generative models: an empirical study.	Zhao, Ren, Yuan, Song, Goodman, Ermon	https://arxiv.org/pdf/1811.03259.pdf	https://ermongroup.github.io/blog/bias-and-generalization-dgm/ https://github.com/ermongroup/BiasAndGeneralization/tree/master/Evaluate
 
@@ -423,6 +555,8 @@ Explorations in homeomorphic variational auto-encoding.	Falorsi, de Haan, Davids
 
 Hierarchical variational memory network for dialogue generation.	Chen, Ren, Tang, Zhao, Yin	http://delivery.acm.org/10.1145/3190000/3186077/p1653-chen.pdf?ip=86.162.136.199&id=3186077&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1569938843_c07ad21d173fc64a44a22fd6521140cb
 
+World models.	Ha, Schmidhuber	https://arxiv.org/pdf/1803.10122.pdf
+
 ## 2017
 
 Discovering causal signals in images	. Lopez-Paz, Nishihara, Chintala, Scholkopf, Bottou 	https://arxiv.org/pdf/1605.08179.pdf
@@ -514,6 +648,8 @@ Discovering discrete latent topics with neural variational inference.	Miao, Gref
 
 Variational approaches for auto-encoding generative adversarial networks. 	Rosca, Lakshminarayana, Warde-Farley, Mohamed	https://arxiv.org/pdf/1706.04987.pdf
 
+Variational Autoencoder and extensions.	Courville	https://ift6266h17.files.wordpress.com/2017/03/vae1.pdf
+
 
 ## 2016
 
@@ -587,7 +723,13 @@ Generating images with perceptual similarity metrics based on deep networks	Doso
 
 A note on the evaluation of generative models.	Theis, van den Oord, Bethge.	https://arxiv.org/pdf/1511.01844.pdf
 
-2016	InfoGAN: interpretable representation learning by information maximizing generative adversarial nets.	Chen, Duan, Houthooft, Schulman, Sutskever, Abbeel	https://arxiv.org/pdf/1606.03657.pdf	https://github.com/openai/InfoGAN
+InfoGAN: interpretable representation learning by information maximizing generative adversarial nets.	Chen, Duan, Houthooft, Schulman, Sutskever, Abbeel	https://arxiv.org/pdf/1606.03657.pdf	https://github.com/openai/InfoGAN
+
+Disentangled representations in neural models. 	Whitney	https://arxiv.org/abs/1602.02383
+
+A recurrent latent variable model for sequential data.	Chung, Kastner, Dinh, Goel, Courville, Bengio	https://arxiv.org/pdf/1506.02216.pdf
+
+Unsupervised learning of 3D structure from images.	Rezende, Eslami, Mohamed, Battaglia, Jaderberg, Heess	https://arxiv.org/pdf/1607.00662.pdf
 
 
 ## 2015
