@@ -7,6 +7,26 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2019
 
+RecVAE: a new variational autoencoder for Top-N recommendations with implicit feedback.	Shenbin, Alekseev, Tutubalina, Malykh, Nikolenko	https://arxiv.org/pdf/1912.11160.pdf
+
+Vibration signal generation using conditional variational autoencoder for class imbalance problem.	Ko, Kim, Kong, Lee, Youn	http://icmr2019.ksme.or.kr/wp/pdf/190090.pdf
+
+The usual suspects? Reassessing blame for VAE posterior collapse. 	Dai, Wang, Wipf	https://arxiv.org/pdf/1912.10702.pdf
+
+What does the free energy principle tell us about the brain?	Gershman	https://arxiv.org/pdf/1901.07945.pdf
+
+Sub-band vector quantized variational autoencoder for spectral envelope quantization.	Srikotr, Mano	https://ieeexplore.ieee.org/abstract/document/8929436	
+
+A variational-sequential graph autoencoder for neural performance prediction.	Friede, Lukasik, Stuckenschmidt, Keuper	https://arxiv.org/pdf/1912.05317.pdf	
+
+Explicit disentanglement of appearance and perspective in generative models.	Skafte, Hauberg	https://papers.nips.cc/paper/8387-explicit-disentanglement-of-appearance-and-perspective-in-generative-models.pdf	
+
+Disentangled behavioural representations.	Dezfouli, Ashtiani, Ghattas, Nock, Dayan, Ong	https://papers.nips.cc/paper/8497-disentangled-behavioural-representations.pdf	
+
+Learning disentangled representations for robust person re-identification.	Eom, Ham	https://papers.nips.cc/paper/8771-learning-disentangled-representation-for-robust-person-re-identification.pdf	
+
+Towards latent space optimality for auto-encoder based generative models.	Mondal, Chowdhury, Jayendran, Singla, Asnani, AP	https://arxiv.org/pdf/1912.04564.pdf	
+
 Don't blame the ELBO! A linear VAE perspective on posterior collapse.	Lucas, Tucker, Grosse, Norouzi	https://128.84.21.199/pdf/1911.02469.pdf
 
 Bridging the ELBO and MMD.	Ucar	https://arxiv.org/pdf/1910.13181.pdf
@@ -115,8 +135,6 @@ Triad constraints for learning causal structure of latent variables.	Cai, Xie, G
 Disentangling influence: using disentangled representations to audit model predictions.	Marx, Phillips, Friedler, Scheidegger, Venkatasubramanian	https://papers.nips.cc/paper/8699-disentangling-influence-using-disentangled-representations-to-audit-model-predictions.pdf
 
 Symmetry-based disentangled representation learning requires interaction with environments.	Caselles-Dupre, Ortiz, Filliat	https://papers.nips.cc/paper/8709-symmetry-based-disentangled-representation-learning-requires-interaction-with-environments.pdf
-
-
 
 Weakly supervised disentanglement with guarantees.	Shu, Chen, Kumar, Ermon, Poole	https://arxiv.org/pdf/1910.09772.pdf
 
@@ -382,7 +400,30 @@ Variational autoencoders with normalizing flow decoders.		https://openreview.net
 
 Gaussian process priors for view-aware inference.	Hou, Heljakka, Solin	https://arxiv.org/pdf/1912.03249.pdf
 
+SGVAE: sequential graph variational autoencoder.	Jing, Chi, Tang	https://arxiv.org/pdf/1912.07800.pdf	
+
+improving multimodal generative models with disentangled latent partitions.	Daunhawer, Sutter, Vogt	http://bayesiandeeplearning.org/2019/papers/103.pdf	
+
+Cross-population variational autoencoders.	Davison, Severson, Ghosh	https://openreview.net/pdf?id=r1eWdlBFwS http://bayesiandeeplearning.org/2019/papers/96.pdf	
+
+Evidential disambiguation of latent multimodality in conditional variational autoencoders.	Itkina, Ivanovic, Senanayake, Kochenderfer, Pavone	http://bayesiandeeplearning.org/2019/papers/34.pdf	
+
+Increasing the generalisation capacity of conditional VAEs.	Klushyn, Chen, Cseke, Bayer, van der Smagt	https://link.springer.com/chapter/10.1007/978-3-030-30484-3_61	
+
+Multi-source neural variational inference.	Kurle, Gunnemann, van der Smagt	https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4311	
+
+Early integration for movement modeling in latent spaces.	Hornung, Chen, van der Smagt	https://books.google.co.uk/books?hl=en&lr=&id=M1WfDwAAQBAJ&oi=fnd&pg=PA305&dq=info:MRhvAh4qD7wJ:scholar.google.com&ots=hN84xN5saO&sig=TBMgkFo6z9wrL64TcvzjU4G5gCQ&redir_esc=y#v=onepage&q&f=false
+	
+Building face recognition system with triplet-based stacked variational denoising autoencoder.	LEe, Hart, Richens, Johri	https://dl.acm.org/citation.cfm?id=3369707	
+
+Cross-domain variational autoencoder for recommender systems.	Shi, Wang	 https://ieeexplore.ieee.org/abstract/document/8935901	
+Predictive coding, variational autoencoders, and biological connections.	Marino	https://openreview.net/pdf?id=SyeumQYUUH	
+
+A general and adaptive robust loss function	Barron	https://arxiv.org/pdf/1701.03077.pdf	
+
 ## 2018
+
+Interpretable intuitive physics model. 	Ye, Wang, Davidson, Gupta	https://arxiv.org/pdf/1808.10002.pdf	https://github.com/tianye95/interpretable-intuitive-physics-model
 
 Normalizing Flows Tutorial, Part 2: Modern Normalizing Flows.	Eric Jang	https://blog.evjang.com/2018/01/nf2.html
 
@@ -769,6 +810,10 @@ Transforming Auto-encoders.	Hinton, Krizhevsky, Wang	https://www.cs.toronto.edu/
 ## 2008
 
 Graphical models, exponential families, and variational inference.	Wainwright, Jordan et al
+
+## 2004
+
+Variational learning and bits-back coding: an information-theoretic view to Bayesian learning.	Honkela, Valpola	https://www.cs.helsinki.fi/u/ahonkela/papers/infview.pdf	
 
 ## 2000
 
