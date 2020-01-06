@@ -1,11 +1,26 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 392 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 403 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
+
+## 2020
+
+A variational stacked autoencoder with harmony search optimizer for valve train fault diagnosis of diesel engine.	Chen, Mao, Zhao, Jiang, Zhang	https://www.mdpi.com/1424-8220/20/1/223
+
+Evaluating loss compression rates of deep generative models.	anon 	https://openreview.net/forum?id=ryga2CNKDH
+
+
 ## 2019
+
+An introduction to variational autoencoders.	Kingma, Welling	https://arxiv.org/pdf/1906.02691.pdf
+
+Adaptive density estimation for generative models	Lucas, Shmelkov, Schmid, Alahari, Verbeek	https://papers.nips.cc/paper/9370-adaptive-density-estimation-for-generative-models.pdf
+
+
+Data efficient mutual information neural estimator	Lin, Sur, Nastase, Divakaran, Hasson, Amer	https://arxiv.org/pdf/1905.03319.pdf
 
 RecVAE: a new variational autoencoder for Top-N recommendations with implicit feedback.	Shenbin, Alekseev, Tutubalina, Malykh, Nikolenko	https://arxiv.org/pdf/1912.11160.pdf
 
@@ -421,7 +436,16 @@ Predictive coding, variational autoencoders, and biological connections.	Marino	
 
 A general and adaptive robust loss function	Barron	https://arxiv.org/pdf/1701.03077.pdf	
 
+Variational autoencoder trajectory primitives and discrete latent. Osa, Ikemoto	https://arxiv.org/pdf/1912.04063.pdf	
+
+Faster attend-infer-repeat with tractable probabilistic models.	Stelzner, Peharz, Kersting	http://proceedings.mlr.press/v97/stelzner19a/stelzner19a.pdf	https://github/stelzner/supair
+
+
 ## 2018
+
+Sequential attend, infer, repeat: generative modeling of moving objects.	Kosiorek, Kim, Posner, Teh	https://arxiv.org/pdf/1806.01794.pdf	https://github.com/akosiorek/sqair https://www.youtube.com/watch?v=-IUNQgSLE0c&feature=youtu.be
+
+Doubly reparameterized gradient estimators for monte carlo objectives.	Tucker, Lawson, Gu, Maddison	https://arxiv.org/pdf/1810.04152.pdf
 
 Interpretable intuitive physics model. 	Ye, Wang, Davidson, Gupta	https://arxiv.org/pdf/1808.10002.pdf	https://github.com/tianye95/interpretable-intuitive-physics-model
 
@@ -691,8 +715,11 @@ Variational approaches for auto-encoding generative adversarial networks. 	Rosca
 
 Variational Autoencoder and extensions.	Courville	https://ift6266h17.files.wordpress.com/2017/03/vae1.pdf
 
+A neural representation of sketch drawings.	Ha, Eck	https://arxiv.org/pdf/1704.03477.pdf
 
 ## 2016
+
+Attend, infer, repeat: fast scene understanding with generative models.	Eslami, Heess, Weber, Tassa, Szepesvari, Kavukcuoglu, Hinton	https://arxiv.org/pdf/1603.08575.pdf	http://akosiorek.github.io/ml/2017/09/03/implementing-air.html https://github.com/aleju/papers/blob/master/neural-nets/Attend_Infer_Repeat.md
 
 Deep feature consistent variational autoencoder.	Hou, Shen, Sun, Qiu	https://arxiv.org/pdf/1610.00291.pdf	https://github.com/sbavon/Deep-Feature-Consistent-Variational-AutoEncoder-in-Tensorflow
 
