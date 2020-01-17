@@ -1,24 +1,48 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 403 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 420 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
 
+Bayesian deep learning: a model-based interpretable approach. 	Matsubara	https://www.jstage.jst.go.jp/article/nolta/11/1/11_16/_article
+
+SPACE: unsupervised object-oriented scene representation via spatial attention and decomposition. 	Lin, Wu, Peri, Sun, Singh, Deng, Jiang, Ahn	https://openreview.net/forum?id=rkl03ySYDH
+
 A variational stacked autoencoder with harmony search optimizer for valve train fault diagnosis of diesel engine.	Chen, Mao, Zhao, Jiang, Zhang	https://www.mdpi.com/1424-8220/20/1/223
 
 Evaluating loss compression rates of deep generative models.	anon 	https://openreview.net/forum?id=ryga2CNKDH
 
+Progressive learning and disentanglement of hierarchical representations.	 anon	https://openreview.net/forum?id=SJxpsxrYPS
 
 ## 2019
+
+Task-Conditioned variational autoencoders for learning movement primitives.	Noseworthy, Paul, Roy, Park, Roy	https://groups.csail.mit.edu/rrg/papers/noseworthy_corl_19.pdf
+
+Multimodal generative models for compositional representation learning.	Wu, Goodman	https://arxiv.org/pdf/1912.05075.pdf
+
+dpVAEs: fixing sample generation for regularized VAEs.	Bhalodia, Lee, Elhabian	https://arxiv.org/pdf/1911.10506.pdf
+
+From variational to deterministic autoencoders. 	Ghosh, Sajjadi, Vergai, Black, Scholkopf	https://arxiv.org/pdf/1903.12436.pdf
+
+Learning representations by maximizing mutual information in variational autoencoder.	Rezaabad, Vishwanath	https://arxiv.org/pdf/1912.13361.pdf	
+
+Disentangled representation learning with Wasserstein total correlation.	Xiao, Wang	https://arxiv.org/pdf/1912.12818.pdf	
+
+Wasserstein dependency measure for representation learning. 	Ozair, Lynch, Bengio, van den Oord, Levine, Sermanent	https://arxiv.org/pdf/1903.11780.pdf	
+
+GP-VAE: deep probabilistic time series imputation.	Fortuin, Baranchuk, Ratsch, Mandt	https://arxiv.org/pdf/1907.04155.pdf	https://github.com/ratschlab/GP-VAE
+
+Likelihood contribution based multi-scale architecture for generative flows.	Das, Abbeel, Spanos	 https://arxiv.org/pdf/1908.01686.pdf	
+
+Gated Variational Autoencoders: Incorporating weak supervision to encourage disentanglement.	Vowels, Camgoz, Bowden	 https://arxiv.org/pdf/1911.06443.pdf	
 
 An introduction to variational autoencoders.	Kingma, Welling	https://arxiv.org/pdf/1906.02691.pdf
 
 Adaptive density estimation for generative models	Lucas, Shmelkov, Schmid, Alahari, Verbeek	https://papers.nips.cc/paper/9370-adaptive-density-estimation-for-generative-models.pdf
-
 
 Data efficient mutual information neural estimator	Lin, Sur, Nastase, Divakaran, Hasson, Amer	https://arxiv.org/pdf/1905.03319.pdf
 
@@ -440,8 +464,18 @@ Variational autoencoder trajectory primitives and discrete latent. Osa, Ikemoto	
 
 Faster attend-infer-repeat with tractable probabilistic models.	Stelzner, Peharz, Kersting	http://proceedings.mlr.press/v97/stelzner19a/stelzner19a.pdf	https://github/stelzner/supair
 
+Learning predictive models from observation and interaction.	Schmeckpeper, Xie, Rybkin, Tian, Daniilidis, Levine, Finn	https://arxiv.org/pdf/1912.12773.pdf
+
+
+
 
 ## 2018
+
+FFJORD: free-form continuous dynamics for scalable reversible generative models. 	Grathwohl, Chen, Bettencourt, Sutskever, Duvenaud	https://arxiv.org/pdf/1810.01367.pdf
+
+A general method for amortizing variational filtering.	Marino, Cvitkovic, Yue	https://arxiv.org/pdf/1811.05090.pdf	https://github.com/joelouismarino/amortized-variational-filtering
+
+Handling incomplete heterogeneous data using VAEs.	Nazabal, Olmos, Ghahramani, Valera	https://arxiv.org/pdf/1807.03653.pdf	
 
 Sequential attend, infer, repeat: generative modeling of moving objects.	Kosiorek, Kim, Posner, Teh	https://arxiv.org/pdf/1806.01794.pdf	https://github.com/akosiorek/sqair https://www.youtube.com/watch?v=-IUNQgSLE0c&feature=youtu.be
 
@@ -623,6 +657,9 @@ Hierarchical variational memory network for dialogue generation.	Chen, Ren, Tang
 World models.	Ha, Schmidhuber	https://arxiv.org/pdf/1803.10122.pdf
 
 ## 2017
+
+Opening the black box of deep neural networks via information. 	Schwartz-Ziv, Tishby	https://arxiv.org/pdf/1703.00810.pdf	https://www.youtube.com/watch?v=gOn8Po_NPe4
+
 
 Discovering causal signals in images	. Lopez-Paz, Nishihara, Chintala, Scholkopf, Bottou 	https://arxiv.org/pdf/1605.08179.pdf
 
