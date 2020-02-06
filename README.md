@@ -1,12 +1,29 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 420 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 430 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+An integrated framework based on latent variational autoencoder for providing early warning of at-risk students. 	Du, Yang, Hung	https://ieeexplore.ieee.org/abstract/document/8952699
+
+Variational autoencoder and friends.	Zheng	https://www.cs.cmu.edu/~xunzheng/files/vae_single.pdf
+
+High-fidelity synthesis with disentangled representation.	Lee, Kim, Hong, Lee	https://arxiv.org/pdf/2001.04296.pdf
+
+Neurosymbolic knowledge representation for explainable and trustworthy AI.	Malo	https://www.preprints.org/manuscript/202001.0163/v1
+
+Adversarial disentanglement with grouped observations.	Nemeth	https://arxiv.org/pdf/2001.04761.pdf
+
+AE-OT-GAN: Training GANs from data specific latent distribution.	An, Guo, Zhang, Qi, Lei, Yau, Gu	https://arxiv.org/pdf/2001.03698.pdf
+
+AE-OT: a new generative model based on extended semi-discrete optimal transport.	An, Guo, Lei, Luo, Yau, Gu	https://openreview.net/pdf?id=HkldyTNYwH
+
+Disentanglement by nonlinear ICA with general incompressible-flow networks (GIN).	Sorrenson, Rother, Kothe	https://arxiv.org/pdf/2001.04872.pdf
+
+Phase transitions for the information bottleneck in representation learning. 	Wu, Fischer	https://arxiv.org/pdf/2001.01878.pdf
 
 Bayesian deep learning: a model-based interpretable approach. 	Matsubara	https://www.jstage.jst.go.jp/article/nolta/11/1/11_16/_article
 
@@ -19,6 +36,8 @@ Evaluating loss compression rates of deep generative models.	anon 	https://openr
 Progressive learning and disentanglement of hierarchical representations.	 anon	https://openreview.net/forum?id=SJxpsxrYPS
 
 ## 2019
+
+Group-based learning of disentangled representations with generalizability for novel contents.	Hosoya	https://www.ijcai.org/Proceedings/2019/0348.pdf
 
 Task-Conditioned variational autoencoders for learning movement primitives.	Noseworthy, Paul, Roy, Park, Roy	https://groups.csail.mit.edu/rrg/papers/noseworthy_corl_19.pdf
 
