@@ -8,7 +8,7 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2020
 
-Learning discrete and continuous factors of data via alternating disentanglement.	Jeong, Song	http://proceedings.mlr.press/v97/jeong19d/jeong19d.pdf
+Learning discrete and continuous factors of data via alternating disentanglement.	Jeong, Song	http://proceedings.mlr.press/v97/jeong19d/jeong19d.pdf https://github.com/snu-mllab/DisentanglementICML19
 
 
 Electrocardiogram generation and feature extraction using a variational autoencoder. Kuznetsov, Moskalenko, Zolotykh	https://arxiv.org/pdf/2002.00254.pdf
