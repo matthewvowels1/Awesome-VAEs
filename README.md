@@ -1,12 +1,27 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 430 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 437 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Learning discrete and continuous factors of data via alternating disentanglement.	Jeong, Song	http://proceedings.mlr.press/v97/jeong19d/jeong19d.pdf
+
+
+Electrocardiogram generation and feature extraction using a variational autoencoder. Kuznetsov, Moskalenko, Zolotykh	https://arxiv.org/pdf/2002.00254.pdf
+
+CosmoVAE: variational autoencoder for CMB image inpainting.	Yi, Guo, Fan, Hamann, Wang	https://arxiv.org/pdf/2001.11651.pdf
+
+Unsupervised representation disentanglement using cross domain features and adversarial learning in variational autoencoder based voice conversion.	Huang, Luo, Hwang, Lo, Peng, Tsao, Wang	https://arxiv.org/pdf/2001.07849.pdf
+
+On implicit regularization in beta VAEs.	Kumar, Poole	https://arxiv.org/pdf/2002.00041.pdf
+
+Weakly-supervised disentanglement without compromises.	Locatello, Poole, Ratsch, Scholkopf, Bachem, Tschannen	https://arxiv.org/pdf/2002.02886.pdf
+
+
 An integrated framework based on latent variational autoencoder for providing early warning of at-risk students. 	Du, Yang, Hung	https://ieeexplore.ieee.org/abstract/document/8952699
 
 Variational autoencoder and friends.	Zheng	https://www.cs.cmu.edu/~xunzheng/files/vae_single.pdf
@@ -485,7 +500,7 @@ Faster attend-infer-repeat with tractable probabilistic models.	Stelzner, Peharz
 
 Learning predictive models from observation and interaction.	Schmeckpeper, Xie, Rybkin, Tian, Daniilidis, Levine, Finn	https://arxiv.org/pdf/1912.12773.pdf
 
-
+Translating visual art into music	Muller-Eberstein, van Noord	http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVFAD/Muller-Eberstein_Translating_Visual_Art_Into_Music_ICCVW_2019_paper.pdf
 
 
 ## 2018
