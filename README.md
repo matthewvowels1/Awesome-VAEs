@@ -1,12 +1,46 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 437 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 459 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Regularized autoencoders via relaxed injetive probability flow.	Kumar, Poole, Murphy	https://arxiv.org/abs/2002.08927
+
+Out-of-distribution detection with distance guarantee in deep generative models.	Zhang, Liu, Chen, Wang, Liu, Li, Wei, Chen	https://arxiv.org/abs/2002.03328
+
+Balancing reconstruction error and Kullback-Leibler divergence in variational autoencoders.	Asperti, Trentin	https://arxiv.org/pdf/2002.07514.pdf
+
+Data augmentation for historical documents via cascade variational auto-encoder.	Cao, Kamata	https://ieeexplore.ieee.org/abstract/document/8977737
+
+Controlling generative models with continuous factors of variations.	Plumerault, Borgne, Hudelot	https://arxiv.org/pdf/2001.10238.pdf
+
+Towards a controllable disentanglement network.	Song, Koyejo, Zhang	https://arxiv.org/abs/2001.08572
+
+Knowledge-induced learning with adaptive sampling variational autoencoders for open set fault diagnostics.	Chao, Adey, Fink	https://arxiv.org/abs/1912.12502
+
+NestedVAE: isolating common factors via weak supervision.	Vowels, Camgoz, Bowden	 https://arxiv.org/abs/2002.11576
+
+Leveraging cross feedback of user and item embeddings for variational autoencoder based collaborative filtering.	Jin, Zhao, Du, Liu, Gao, Li, Xu	https://arxiv.org/pdf/2002.09145.pdf
+
+K-autoencoders deep clustering.	Opochinsky, Chazan, Gannot, Goldberger	http://www.eng.biu.ac.il/goldbej/files/2020/02/ICASSP_2020_Yaniv.pdf
+
+D2D-TM: a cycle VAE-GAN for multi-domain collaborative filtering.	Nguyen, Ishigaki	https://ieeexplore.ieee.org/abstract/document/9006461/
+
+Disentangling controllable object through video prediction improves visual reinforcement learning.	Zhong, Schwing, Peng	https://arxiv.org/pdf/2002.09136.pdf
+
+A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis.	Lin, Mukherjee, Kannan	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3401-5
+
+Context conditional variational autoencoder for predicting multi-path trajectories in mixed traffic. 	Cheng, Liao, Yang, Sester, Rosenhahn	https://arxiv.org/pdf/2002.05966.pdf
+
+Optimizing variational graph autoencoder for community detection with dual optimization.	Choong, Liu, Murata	
+
+Learning flat latent manifolds with VAEs.	Chen, Klushyn, Ferroni, Bayer, van der Smagt	https://arxiv.org/pdf/2002.04881.pdf
+
+Learning discrete distributions by dequantization.	Hoogeboom, Cohen, Tomczak	https://arxiv.org/pdf/2001.11235.pdf
 
 Learning discrete and continuous factors of data via alternating disentanglement.	Jeong, Song	http://proceedings.mlr.press/v97/jeong19d/jeong19d.pdf https://github.com/snu-mllab/DisentanglementICML19
 
@@ -502,8 +536,15 @@ Learning predictive models from observation and interaction.	Schmeckpeper, Xie, 
 
 Translating visual art into music	Muller-Eberstein, van Noord	http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVFAD/Muller-Eberstein_Translating_Visual_Art_Into_Music_ICCVW_2019_paper.pdf
 
+Non-parallel voice conversion with controllable speaker individuality using variational autoencoder.	Ho, Akagi	 http://www.apsipa.org/proceedings/2019/pdfs/68.pdf
+
+Derivation of the variational Bayes equations.	Maren	https://arxiv.org/pdf/1906.08804.pdf
+
 
 ## 2018
+
+DVAE++: Discrete variational autoencoders wth overlapping transformations.	Vahdat, Macready, Bian,Khoshaman, Andriyash	http://proceedings.mlr.press/v80/vahdat18a/vahdat18a.pdf
+
 
 FFJORD: free-form continuous dynamics for scalable reversible generative models. 	Grathwohl, Chen, Bettencourt, Sutskever, Duvenaud	https://arxiv.org/pdf/1810.01367.pdf
 
@@ -691,6 +732,10 @@ Hierarchical variational memory network for dialogue generation.	Chen, Ren, Tang
 World models.	Ha, Schmidhuber	https://arxiv.org/pdf/1803.10122.pdf
 
 ## 2017
+
+The concrete distribution: a continuous relaxation of discrete random variables. 	Maddison, Mnih, The	https://arxiv.org/pdf/1611.00712.pdf
+
+Categorical reparameterization with Gumbel-Softmax.	Jang, Gu, Poole	https://arxiv.org/abs/1611.01144
 
 Opening the black box of deep neural networks via information. 	Schwartz-Ziv, Tishby	https://arxiv.org/pdf/1703.00810.pdf	https://www.youtube.com/watch?v=gOn8Po_NPe4
 
