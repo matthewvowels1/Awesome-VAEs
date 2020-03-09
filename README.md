@@ -1,12 +1,24 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 459 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
+I gathered these resources (currently @ 473 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.  I have also included an excel file which includes notes on each paper, as well as a breakdown of the topics covered in each paper.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Draft and Edit: Automatic Storytelling Through Multi-Pass Hierarchical Conditional Variational Autoencoder.	Yu, Li, Liu, Tang, Zhang, Zhao, Yan	https://www.aaai.org/Papers/AAAI/2020GB/AAAI-YuM.8133.pdf
+
+Reverse variational autoencoder for visual attribute manipulation and anomaly detection.	Gauerhof, Gu	http://openaccess.thecvf.com/content_WACV_2020/papers/Lydia_Reverse_Variational_Autoencoder_for_Visual_Attribute_Manipulation_and_Anomaly_Detection_WACV_2020_paper.pdf
+
+
+Bridged variational autoencoders for joint modeling of images and attributes.	Yadav, Sarana, Namboodiri, Hegde	http://openaccess.thecvf.com/content_WACV_2020/papers/Yadav_Bridged_Variational_Autoencoders_for_Joint_Modeling_of_Images_and_Attributes_WACV_2020_paper.pdf
+
+
+Treatment effect estimation with disentangled latent factors.	anon	https://arxiv.org/abs/2001.10652
+
+Unbalanced GANS: pre-training the generator of generative adversarial network using variational autoencoder.	Ham, Jun, Kim	https://arxiv.org/pdf/2002.02112.pdf
 
 Regularized autoencoders via relaxed injetive probability flow.	Kumar, Poole, Murphy	https://arxiv.org/abs/2002.08927
 
@@ -84,7 +96,23 @@ Evaluating loss compression rates of deep generative models.	anon 	https://openr
 
 Progressive learning and disentanglement of hierarchical representations.	 anon	https://openreview.net/forum?id=SJxpsxrYPS
 
+Learning group structure and disentangled representations of dynamical environments.	Quessard, Barrett, Clements	https://arxiv.org/abs/2002.06991
+
+A simple framework for contrastive learning of visual representations. 	Chen, Kornblith, Norouzi, Hinton	https://arxiv.org/abs/2002.05709
+
+
 ## 2019
+
+Disentangling and learning robust representations with naturual clustering	. Antoran, Miguel	https://arxiv.org/abs/1901.09415
+
+Inherent tradeoffs in learning fair representations.	Zhao, Gordon	https://arxiv.org/abs/1906.08386
+
+Affine variational autoencoders: an efficient approach for improving generalization and robustness to distribution shift.	Bidart, Wong	https://arxiv.org/pdf/1905.05300.pdf
+
+Learning deep controllable and structured representations for image synthesis, structured prediction and beyond.	Yan	https://deepblue.lib.umich.edu/handle/2027.42/153334
+
+
+Continual unsupervised representation learning	. Rao, Visin, Rusu, The, Pascanu, Hadsell	 https://arxiv.org/pdf/1910.14481.pdf
 
 Group-based learning of disentangled representations with generalizability for novel contents.	Hosoya	https://www.ijcai.org/Proceedings/2019/0348.pdf
 
@@ -914,6 +942,8 @@ Disentangled representations in neural models. 	Whitney	https://arxiv.org/abs/16
 A recurrent latent variable model for sequential data.	Chung, Kastner, Dinh, Goel, Courville, Bengio	https://arxiv.org/pdf/1506.02216.pdf
 
 Unsupervised learning of 3D structure from images.	Rezende, Eslami, Mohamed, Battaglia, Jaderberg, Heess	https://arxiv.org/pdf/1607.00662.pdf
+
+A survey of inductive biases for factorial representation-learning.	Ridgeway	https://arxiv.org/pdf/1612.05299.pdf
 
 
 ## 2015
