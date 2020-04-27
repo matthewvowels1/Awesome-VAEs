@@ -8,6 +8,8 @@ They are ordered by year (new to old). I provide a link to the paper as well as 
 
 ## 2020
 
+[Fast NLP Model Pretraining with Vampire][https://www.lighttag.io/blog/fast-nlp-pretraining-with-vampire/] https://www.lighttag.io/blog/fast-nlp-pretraining-with-vampire/ - Blog post describing AllenAI work on use of VAEs to pre-train NLP models 
+
 A robust speaker clustering method based on discrete tied variational autoencoder	Feng, Wang, Li, Peng, Xiao	https://arxiv.org/pdf/2003.01955.pdf
 
 mmFall: Fall detection using 4D mmwave radar and variational recurrent autoencoder	Jin, Sengupta, Cao	https://arxiv.org/pdf/2003.02386.pdf
