@@ -1,31 +1,64 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 503 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
+I gathered these resources (currently @ 514 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
 
-[Fast NLP Model Pretraining with Vampire][https://www.lighttag.io/blog/fast-nlp-pretraining-with-vampire/] https://www.lighttag.io/blog/fast-nlp-pretraining-with-vampire/ - Blog post describing AllenAI work on use of VAEs to pre-train NLP models 
+CausalVAE: structured causal disentanglement in variational autoencoder. 	Yang, Liu, Chen, Shen, Hao, Wang	https://arxiv.org/pdf/2004.08697.pdf
 
-A robust speaker clustering method based on discrete tied variational autoencoder	Feng, Wang, Li, Peng, Xiao	https://arxiv.org/pdf/2003.01955.pdf
+Vroc: Variational autoencoder-aided multi-task rumor classifier based on text. 	Cheng, Nazarian, Bogdan	https://dl.acm.org/doi/pdf/10.1145/3366423.3380054
 
-mmFall: Fall detection using 4D mmwave radar and variational recurrent autoencoder	Jin, Sengupta, Cao	https://arxiv.org/pdf/2003.02386.pdf
+On the encoder-decoder incompatibility in variational text modeling and beyond	. Wu, Wang, Wang	https://arxiv.org/pdf/2004.09189.pdf
 
-Variational auto-encoders: not all failures are equal	Berger, Sebag	https://arxiv.org/abs/2003.01972
+Esimate the implicit likelihoods of GANs with application to anomaly detection. 	Ren, Li, Zhou, Li	https://dl.acm.org/doi/pdf/10.1145/3366423.3380293
 
-Fully convolutional variational autoencoder for feature extraction of fire detection system	Hugroho, Susanty, Irawan, Koyimatu, Yunita	
-Time-varying item feature conditional variational autoencoder for collaborative filtering	Kim	https://ieeexplore.ieee.org/abstract/document/9006014
+Emotional response generation using conditional variational autoencoder. 	Lee, Choi	https://ieeexplore.ieee.org/abstract/document/9070547
 
-Multi-objective variational autoencoder: an application for smart infrastructure maintenance	Anaissi, Zandavi	https://arxiv.org/pdf/2003.05070.pdf
+PatchVAE: learning local latent codes for recognition. 	Gupta, Singh, Shrivastava	https://arxiv.org/pdf/2004.03623.pdf
 
-Variational autoencoder with optimizing gaussian mixture model priors	Guo, Zhou, Chen, Ying, Zhang, Zhou,	https://ieeexplore.ieee.org/abstract/document/9020116
+Generating tertiary protein structures via an interpretative variational autoencoder.	Guo, Tadepalli, Zhao, Shehu	https://arxiv.org/pdf/2004.07119.pdf
 
-Combining model predictive path integral with Kalman variational autoencoder for robot control from raw images	Kwon, Kaneko, Tsurumine, Sasaki, Motonaka, Miyoshi, Matsubara	https://ieeexplore.ieee.org/abstract/document/9025842
+Attribute-based regularization of VAE latent spaces. 	Pati, Lerch	https://arxiv.org/pdf/2004.05485.pdf
 
-Botnet detection using recurrent variational autoencoder	Kim, Sim, Kim, Wu	https://arxiv.org/abs/2004.00234
+Controllable variational autoencoder. 	Shao, Yao, Sun, Zhang, Liu, Liu, Wang, Abdelzaher	https://arxiv.org/pdf/2004.05988.pdf
+
+Variational autoencoder-based dimensionality reduction for high-dimensional small-sample data classification. 	Mahmud, Huang, Fu	https://www.worldscientific.com/doi/abs/10.1142/S1469026820500029
+
+Normalizing flows with multi-scale autoreressive priors.	Mahajan, Bhattacharyya, Fritz, Schiele, Roth	https://arxiv.org/pdf/2004.03891.pdf
+
+Adversarial latent autoencoders.	Pidhorskyi, Adjeroh, Doretto	https://arxiv.org/pdf/2004.04467.pdf
+OPTIMUS: organizing sentences via pre-trained modeling of latent space	Li, Gao, Li, Li, Peng, Zhang, Gao	https://arxiv.org/pdf/2004.04092.pdf
+
+Learning discrete structured representations by adversarially maximizing mutual information. 	Stratos, Wiseman	https://arxiv.org/pdf/2004.03991.pdf
+
+AI giving back to statistics? Discovery of the coordinate system of univariate distributions by beta variational autoencoder. Glushkovsky	https://arxiv.org/pdf/2004.02687.pdf
+
+Towards democratizing music production with AI - design of variational autoencoder-based rhythm generator as a DAW plugin. 	Tokui	https://arxiv.org/pdf/2004.01525.pdf
+
+Decomposed adversarial learned inference. 	Li, Wang, Chen, Gao	https://arxiv.org/abs/2004.10267
+
+Fast NLP Model Pretraining with Vampire  https://www.lighttag.io/blog/fast-nlp-pretraining-with-vampire/ - Blog post describing AllenAI work on use of VAEs to pre-train NLP models 
+
+A robust speaker clustering method based on discrete tied variational autoencoder.	Feng, Wang, Li, Peng, Xiao	https://arxiv.org/pdf/2003.01955.pdf
+
+mmFall: Fall detection using 4D mmwave radar and variational recurrent autoencoder.	Jin, Sengupta, Cao	https://arxiv.org/pdf/2003.02386.pdf
+
+Variational auto-encoders: not all failures are equal. 	Berger, Sebag	https://arxiv.org/abs/2003.01972
+
+Fully convolutional variational autoencoder for feature extraction of fire detection system. 	Hugroho, Susanty, Irawan, Koyimatu, Yunita	
+Time-varying item feature conditional variational autoencoder for collaborative filtering.	Kim	https://ieeexplore.ieee.org/abstract/document/9006014
+
+Multi-objective variational autoencoder: an application for smart infrastructure maintenance.	Anaissi, Zandavi	https://arxiv.org/pdf/2003.05070.pdf
+
+Variational autoencoder with optimizing gaussian mixture model priors.	Guo, Zhou, Chen, Ying, Zhang, Zhou,	https://ieeexplore.ieee.org/abstract/document/9020116
+
+Combining model predictive path integral with Kalman variational autoencoder for robot control from raw images.	Kwon, Kaneko, Tsurumine, Sasaki, Motonaka, Miyoshi, Matsubara	https://ieeexplore.ieee.org/abstract/document/9025842
+
+Botnet detection using recurrent variational autoencoder.	Kim, Sim, Kim, Wu	https://arxiv.org/abs/2004.00234
 
 A flow-based deep latent variable model for speech spectrogram modeling and enhancement	Nugraha, Sekiguchi, Yoshii	https://ieeexplore.ieee.org/abstract/document/9028147
 
@@ -50,6 +83,7 @@ A lower bound for the ELBO of the Bernoulli variational autoencoder	Sicks, Korn,
 VaB-AL: incorporating class imbalance and difficulty with variational Bayes for active learning	Choi, Yi, Kim, Choo, Kim, Chang, Gwon, Chang	https://arxiv.org/pdf/2003.11249.pdf
 
 Inferring personalized and race-specific causal effecs of genomic aberrations on Gleason scores: a deep latent variable model	Chen, Edwards, Hicks, Zhang	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7082760/
+
 SCALOR: generative world models with scalable object representations	Jiang, Janghorbani, Melo, Ahn	https://pdfs.semanticscholar.org/02a0/1ed64f4a1bdfece5e1a83da5d9756397b0a1.pdf
 
 Draft and Edit: Automatic Storytelling Through Multi-Pass Hierarchical Conditional Variational Autoencoder.	Yu, Li, Liu, Tang, Zhang, Zhao, Yan	https://www.aaai.org/Papers/AAAI/2020GB/AAAI-YuM.8133.pdf
@@ -150,6 +184,8 @@ Detecting adversarial examples in learning-enabled cyber-physical systems using 
 
 
 ## 2019
+
+On the dimensionality of embeddings for sparse features and data	Naumov	https://arxiv.org/abs/1901.02103
 
 Deep variational autoencoders for breast cancer tissue modeling and synthesis in SFDI	Pardo, Lopez-Higuera, Pogue, Conde	https://repositorio.unican.es/xmlui/bitstream/handle/10902/18323/DeepVariationalAutoencoders.pdf?sequence=1
 
