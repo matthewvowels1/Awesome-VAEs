@@ -1,12 +1,50 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 514 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
+I gathered these resources (currently @ 532 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Polarized-VAE: proximity based disentangled representation learning for text generation.	Balasubramanian, Kobyzev, Bahuleyan, Shapiro, Vechtomova	https://arxiv.org/pdf/2004.10809.pdf
+
+Discretized bottleneck: posterior-collapse-free sequence-to-sequence learning. 	Zhao, Yu, Mahapatra, Su, Chen	https://arxiv.org/pdf/2004.10603.pdf
+
+Remote sensing image captioning via Variational Autoencoder and Reinforcement learning.	Shen, Liu, Zhou, Zhao, Liu	https://www.sciencedirect.com/science/article/abs/pii/S0950705120302586
+
+Conditioned variational autoencoder for top-N item recommendation	Polato, Carraro, Aiolli.	https://arxiv.org/pdf/2004.11141.pdf
+
+Multi-speaker and multi-domain emotional voice conversion using factorized hierarchical variational autoencoder.	Elgaar, Park, Lee	https://ieeexplore.ieee.org/abstract/document/9054534
+
+beta-variational autoencoder as an entanglement classifier.	Sa, Roditi	https://arxiv.org/pdf/2004.14420.pdf
+
+Preventing posterior collapse with Levenshtein variational autoencoder.	Havrylov, Titov	https://arxiv.org/pdf/2004.14758.pdf
+
+Multi-decoder RNN autoencoder based on variational Bayes method. 	Kaji, Watanabe, Kobayashi	https://arxiv.org/pdf/2004.14016.pdf
+
+Bootstrap latent-predictive representations for multitask reinforcement learning. 	Guo, Pries, Piot, Grill, Altche, Munoz, Azar	https://arxiv.org/pdf/2004.14646.pdf
+
+Anomaly detection of time series with smoothness-inducing sequential variational auto-encoder.	Li, Yan, Wang, Jin	https://ieeexplore.ieee.org/abstract/document/9064715
+
+A batch normalized inference network keeps the KL vanishing away.  	Zhu, Bi, Liu, Ma, Li, Wu	https://arxiv.org/pdf/2004.12585.pdf
+
+From symbols to signals: symbolic variational autoencoders.	Devaraj, Chowdhury, Jain, Kubricth, Tu, Santa	https://ieeexplore.ieee.org/abstract/document/9054016
+
+Unsupervised real image super-resolution via generative variational autoencoder.	Liu, Sui, Wang, Li, Cani, Chan	https://arxiv.org/pdf/2004.12811.pdf
+
+Interpreting rate-distortion of variational autoencoder and using model uncertainty for anomaly detection.	Park, Adosoglou, Pardalos	https://arxiv.org/pdf/2005.01889.pdf
+
+Computational representation of Chinese characters: comparison between Singular Value Decomposition and Variational Autoencoder.	Tseng, Hsieh	http://www.papersearch.net/thesis/article.asp?key=3766591
+
+Curiosity-driver variational autoencoder for deep q network.	Han, Zhang, Mao	https://link.springer.com/chapter/10.1007/978-3-030-47426-3_59
+
+6GCVAE: gated convolutional variational autoencoder for IPv6 Target Generation.	Cui, Gou, Xiong	https://link.springer.com/chapter/10.1007/978-3-030-47426-3_47
+
+Text-based malicious domain names detection based on variational autoencoder and supervised learning.	Sun, Chong, Ochiai	https://ieeexplore.ieee.org/abstract/document/9086229/
+
+Mutual information gradient estimation for representation learning.	Wen, Zhou, He, Zhou, Xu	https://arxiv.org/pdf/2005.01123.pdf
 
 CausalVAE: structured causal disentanglement in variational autoencoder. 	Yang, Liu, Chen, Shen, Hao, Wang	https://arxiv.org/pdf/2004.08697.pdf
 
