@@ -1,12 +1,81 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 532 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
+I gathered these resources (currently @ 566 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Mutual information gradient estimation for representation learning.	Wen, Zhou, He, Zhou, Xu	https://arxiv.org/pdf/2005.01123.pdf
+	
+Cross-VAE: towards disentangling expression from identity for human faces.	Wu, Jia, Xie, Qi, Shi, Tian	https://ieeexplore.ieee.org/abstract/document/9053608	
+
+CONFIG: controllable neural face image generation.	Kowalski, Garbin, Estellers, Baltrusaitis, Johnson, Shotton 	https://arxiv.org/abs/2005.02671	
+
+Variance constrained autoencoding.	Braithwaite, O'Connor, Kleijn	https://arxiv.org/pdf/2005.03807.pdf	
+
+Jigsaw-VAE: towards balancing features in variational autoencoders. 	Taghanaki, Havaei, Lamb, Sanghi	https://arxiv.org/pdf/2005.05496.pdf	
+
+The usefulness of the deep learning method of variational autoencoder to reduce measurement noise in Glaucomatous visual fields.	Asaoka, Murata, Asano, Matsuura, Fujino et al.	https://www.nature.com/articles/s41598-020-64869-6	
+
+methCancer-gen: a DNA methylome dataset generator for user-specified cancer type based on conditional variational autoencoder. 	Choi, Chae	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3516-8	
+
+Deep latent variable model for longitudinal group factor analysis.	Qiu, Chinchilli, Lin	https://arxiv.org/pdf/2005.05210.pdf	
+
+Prototypical contrastive learning of unsupervised representations.	Li, Zhou, Xiong, Socher, Hoi	https://arxiv.org/pdf/2005.04966.pdf	
+
+A semi-supervised approach for identifying abnormal heart sounds using variational autoencoder.	Banerjee, Ghose	https://ieeexplore.ieee.org/abstract/document/9054632	
+
+Semi-supervised neural chord estimation based on a variational autoencoder with discrete labels and continuous textures of chords.	Wu, Carsault, Nakamura, Yoshii	https://arxiv.org/pdf/2005.07091.pdf	
+
+A deeper look at the unsupervised learning of disentangled representations in beta-VAE from the perspective of core object recognition.	Sikka	https://arxiv.org/pdf/2005.07114.pdf	
+
+Many-to-many voice conversion using cycle-consistent variational autoencoder with multiple decoders/	Yook, Leem, Lee, Yoo	https://www.isca-speech.org/archive/Odyssey_2020/pdfs/32.pdf	
+
+HyperVAE: a minimum description length variational hyper-encoding network.	Nguyen, Tran, Gupta, Rana, Dam, Venkatesh	https://arxiv.org/pdf/2005.08482.pdf	
+
+Disentangling in latent space by harnessing a pretrained generator.	Nitzan, Bermano, Li, Cohen-Or	https://arxiv.org/pdf/2005.07728.pdf	
+
+Attention mechanism for human motion prediction.	Al-aqel, Khan	https://ieeexplore.ieee.org/abstract/document/9096777
+	
+Brain lesion detection using a robust variational autoencoder and transfer learning.	Akrami, Joshi, Li, Aydore, Leahy	https://ieeexplore.ieee.org/abstract/document/9098405	
+
+Deep variational autoencoder for modeling functional brain networks and ADHD identification.	Qiang, Dong, Sun, Ge, Liu	https://ieeexplore.ieee.org/abstract/document/9098480	
+
+Dual autoencoders generative adversarial network for imbalanced classification problem.	Wu, Cui, Welsch	https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9093005	
+
+Pairwise supervised hashing with bernoulli variational auto-encoder and self-control gradient estimator.	Dadaneh, Boluki, Yin, Zhou, Qian	https://arxiv.org/pdf/2005.10477.pdf	
+
+S3VAE: self-supervised sequential VAE for representation disentanglement and data generation.	Zhu, Min, Kadav, Graf,	https://arxiv.org/pdf/2005.11437.pdf	
+
+VMI-VAE: variational mutual information maximization framework for VAE with discrete and continuous priors.	Serdega, Kim	https://arxiv.org/pdf/2005.13953.pdf	
+
+Variational autoencoder with embedded student-t mixture model for authorship attribution.	 Boenninghoff, Zeiler, Nickel, Kolossa	https://arxiv.org/pdf/2005.13930.pdf	
+
+Deep learning on the 2-dimensional ising model to extract the crossover region with a variational autoencoder.	Walker, Tam, Jarrell	https://arxiv.org/pdf/2005.13742.pdf	
+
+Context-dependent token-wise variational autoencoder for topic modeling. 	Masada	
+High-fidelity audio generation and representation learning with guided adversarial autoencoder. 	Haque, Rana, Schuller	https://arxiv.org/pdf/2006.00877.pdf	
+
+Adaptive efficient coding: a variational auto-encoder approach. 	Aridor, Grechi, Woodford	https://www.biorxiv.org/content/biorxiv/early/2020/05/31/2020.05.29.124453.full.pdf	
+
+Noise-to-compression variational autoencoder for efficient end-to-end optimized image coding.	Luo, Li, Dai, Xu, Cheng, Li, Xiong	https://ieeexplore.ieee.org/abstract/document/9105715	
+
+Guided image generation with conditional invertible neural networks. 	Ardizzone, Luth, Kruse, Rother, Kothe	https://arxiv.org/pdf/1907.02392.pdf	
+
+Vector quantization-based regularization for autoencoders	. Wu, Flierl	https://arxiv.org/abs/1905.11062	https://github.com/AlbertOh90/Soft-VQ-VAE
+
+MHVAE: a human-inspired deep hierarchical generative model for multimodal representations learning.	Vasco, Melo, Paiva	https://arxiv.org/pdf/2006.02991.pdf
+
+NewtonianVAE: proportional control and goal identification from pixels via physical latent spaces.	Jaques, Burke, Hospedales	https://arxiv.org/pdf/2006.01959.pdf
+
+Constrained variational autoencoder for improving EEG based speech recognition systems.	Krishna, Tran, Carnahan, Tewfik	https://arxiv.org/pdf/2006.02902.pdf
+
+Variational mutual information maximization framework for VAE latent codes with continuous and discrete priors.	Serdega	https://arxiv.org/pdf/2006.02227.pdf
+
+Monitoring and prediction of big process data with deep latent variable models and parallel computing.	Yang, Ge	https://www.sciencedirect.com/science/article/pii/S0959152420302171
 
 Polarized-VAE: proximity based disentangled representation learning for text generation.	Balasubramanian, Kobyzev, Bahuleyan, Shapiro, Vechtomova	https://arxiv.org/pdf/2004.10809.pdf
 
