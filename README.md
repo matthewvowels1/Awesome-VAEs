@@ -1,12 +1,142 @@
 # Awesome-VAEs
 Awesome work on the VAE, disentanglement, representation learning, and generative models. 
 
-I gathered these resources (currently @ 566 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
+I gathered these resources (currently @ 642 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list.
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Object-centric learning with slot attention.	Locatello, Weissenborn, Unterthiner, Mahendran, Heigold, Uszkoreit, Dosovitskiy, Kipf	https://arxiv.org/abs/2006.15055
+
+NVAE: A deep hierarchical variational autoencoder.	Vahadat, Kautz	https://arxiv.org/abs/2007.03898
+
+Variational inference for sequential data with future likelihood estimates.	Kim, Jang, Yang, Kim	http://ailab.kaist.ac.kr/papers/pdfs/KJYK2020.pdf
+
+Exponential tilting of generative models: improving sample quality by training and sampling from latent energy.	Xiao, Yan, Amit	https://arxiv.org/pdf/2006.08100.pdf
+
+Hierarchical path VAE-GAN: generating diverse videos from a single sample.	Gur, Benaim, Wolf	https://arxiv.org/pdf/2006.12226.pdf
+
+Contrastive code representations learning. 	Jain, Jain, Zhang, Abbeel, Gonzalez, Stoica	https://arxiv.org/pdf/2007.04973.pdf
+
+Efficiet learning of generative models via finite-difference score matching. 	Pang, Xu, Li, Song, Ermon, Zhu	https://arxiv.org/pdf/2007.03317.pdf
+
+Towards recurrent autoregressive flow models. 	Mern, Morales, Kochenderfer	https://arxiv.org/pdf/2006.10096.pdf
+
+Benefiting deep latent variable models via learning the prior and removing latent regularization. 	Morrow, Chiu	https://arxiv.org/pdf/2007.03640.pdf
+
+VAEs in the presence of missing data	Collier, Nazabal, Williams	https://arxiv.org/pdf/2006.05301.pdf
+
+Mixture of discrete normalizing flows for variational inference.	Kusmierczyk, Klami	https://arxiv.org/pdf/2006.15568.pdf
+
+Spatial revising variational autoencoder-based feature extraction method for hyperspectral images.	Yu, Zhang, Shen	https://ieeexplore.ieee.org/abstract/document/9109663/
+
+Monitoring of nonlinear processes with multiple operating modes through a novel Gaussian mixture variational autoencoder model.	Tang, Peng, Dong, Zhang, Zhao	https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9119397
+
+A new approach for smoking event detection using a variational autoencoder and neural decision forest.	Fan, Gao	https://ieeexplore.ieee.org/abstract/document/9129702/
+
+Isometric Gaussian process latent variable model for dissimilarity data.	Jorgensen, Hauberg	https://arxiv.org/pdf/2006.11741.pdf
+
+VAEM: a deep generative model for heterogeneous mixed type data. 	Ma, Tschiatschek, Hernandez-Lobato, Turner	https://arxiv.org/pdf/2006.11941.pdf
+
+Disentangling by subspace diffusion. 	Pfau, Higgins, Botev, Racaniere	https://arxiv.org/pdf/2006.12982.pdf
+
+Latent variable modeling with random features. 	Gundersen, Zhang, Engelhardt	https://arxiv.org/pdf/2006.11145.pdf
+
+Variational orthogonal features.	Burt, Rasmussen, van der Wilk	https://arxiv.org/pdf/2006.13170.pdf
+
+Scale-space autoencoders for unsupervised anomaly segmentations in brain MRI.	Bauer, Wistler, Albarquouni, Navab	https://arxiv.org/pdf/2006.12852.pdf
+
+Learning from demonstration with weakly supervised disentanglement.	Hristov, Ramamoorthy.	https://arxiv.org/pdf/2006.09107.pdf
+
+A tutorial on VAES: from Bayes' rule to lossless compression. 	Yu	https://arxiv.org/pdf/2006.10273.pdf
+
+Density deconvolution with normalizing flows.	Dockhorn, Ritchie, Yu, Murray	https://arxiv.org/pdf/2006.09396.pdf
+
+Rethinking sem-supervised learning in VAEs.	Joy, Schmon, Torr, Siddharth, Rainforth	https://arxiv.org/pdf/2006.10102.pdf
+
+DisARM: An antithetic gradient estimator for binary latent variables.	Dong, Mnih, Tucker	https://arxiv.org/pdf/2006.10680.pdf
+
+On casting importance weighted autoencoder to an EM algorithm to learn deep generative models.	Kim, Hwang, Kim	http://proceedings.mlr.press/v108/kim20b/kim20b.pdf
+
+Sparsity enforcement on latent variables for better disentanglement in VAE.	Crsitovao, Nakada, Tanimura, Asoh	https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_2K6ES202/_pdf
+
+Isometric autoencoders.	Atzmon, Gropp, Lipman	https://arxiv.org/pdf/2006.09289.pdf
+
+Constraining variational inference with geometric Jensen-Shannon divergence. 	Deasy, Simidjievski, Lio	https://arxiv.org/pdf/2006.10599.pdf
+
+Neural decomposition: functional ANOVA with variational autoencoders.	Martens, Yau	http://proceedings.mlr.press/v108/martens20a/martens20a.pdf
+
+Variational autoencoder with learned latent structure. 	Connor, Canal, Rozell	https://arxiv.org/pdf/2006.10597.pdf
+
+Transfer learning approach for botnet detection based on recurrent variational autoencoder.	Kim , Sim, Kim, Wu, Hahm	https://dl.acm.org/doi/abs/10.1145/3391812.3396273
+
+Anomaly-based intrusion detection from network flow features using variational autoencoder.	Zavrak, Iskefiyeli	https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9113298
+
+Longitudinal variational autoencoder. 	Racmchandran, Tikhonov, Koskinen, Lahdesmaki	https://arxiv.org/pdf/2006.09763.pdf
+
+Gaussian mixture variational atueoncoder for semi-supervised topic modeling.	Zhou, Ban, Zhang, Li, Zhang	https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9112154
+
+Structural autoencoders improve representations for generation and transfer.	Leeb, Annadani, Bauer, Scholkopf	https://arxiv.org/pdf/2006.07796.pdf
+
+High-dimensional similarity search with quantum-assisted variational autoencoder.	Gao, Wilson, Vandal, Vinci, Nemani, Rieffel	https://arxiv.org/pdf/2006.07680.pdf
+
+Robust variational autoencoder for tabular data with beta divergence	.  Akrami, Aydore, Leahy, Joshi	https://arxiv.org/pdf/2006.08204.pdf
+
+Evidence-aware inferential text generation with vector quantised variational autoencoder. 	Guo, Tang, Duan, Yin, Jiang, Zhou	https://arxiv.org/pdf/2006.08101.pdf
+
+LaRVAE: label replacement VAE for semi-supervised disentanglement learning. 	Nie, Wang, Patel, Baraniuk	https://arxiv.org/pdf/2006.07460.pdf
+
+AR-DAE: towards unbiased neural entropy gradient estimation. 	Lim, Courville, Pal, Huang	https://arxiv.org/pdf/2006.05164.pdf
+
+Learning latent space energy-based prior model. 	Pang, Han, Nijkamp, Zhu, Wu	https://arxiv.org/pdf/2006.08205.pdf
+
+Disentanglement for discriminative visual recognition. 	Liu	https://arxiv.org/pdf/2006.07810.pdf
+
+Deep critiquing for VAE-based recommender systems. 	Luo, Yang, Wu, Sanner	https://ssanner.github.io/papers/sigir20_cevae.pdf
+
+To regularize or not to regularize? The bias variance trade-off in regularized VAEs.	Mondal, Asnani, Singla	https://arxiv.org/pdf/2006.05838.pdf
+
+DisCont: self-supervised visual attribute disentanglement using context vectors.  Bhagat, Udandarao, Uppal	https://arxiv.org/pdf/2006.05895.pdf
+
+Interpretable deep graph generation with node-edge co-disentanglement. 	Guo, Zhao, Qin, Wu, Shehu, Ye	https://arxiv.org/pdf/2006.05385.pdf
+
+Output-relevant variational autoencoder for just-in-time soft sensor modeling with missing data. 	Guo, Bai, Huang	https://www.sciencedirect.com/science/article/pii/S0959152420302195
+
+Deep variational autoencoder: an efficient tool for PHM frameworks. 	Zemouri, Levesque, Amyot, Hudon, Kokoko	https://ieeexplore.ieee.org/abstract/document/9115491/
+
+Model extraction defence using modified variational autoencoder.	Gupta	http://etd.iisc.ac.in/handle/2005/4430
+
+Variational variance: simple and reliable predictive variance parameterization.	Stirn, Knowles	https://arxiv.org/pdf/2006.04910.pdf
+
+Probabilistic autoencoder. 	Bohm, Seljak	https://arxiv.org/pdf/2006.05479.pdf
+
+Deep latent-variable models for natural language understanding and generation.	Shen	https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/20848/Shen_duke_0066D_15473.pdf?sequence=1
+
+Generalization via information bottleneck in deep reinforcement learning.	Lu, Tiomkin, Abbeel	https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-56.pdf
+
+Optimal configuration of concentrating solar power in multienergy power systems with an improved variational autoencoder.	Qi, Hu, Dong, Fan, Dong, Xiao	https://www.sciencedirect.com/science/article/abs/pii/S030626192030636X
+
+tvGP-VAE: tensor-variate gaussian process prior variational autoencoder.  	Campbell, Lio	https://arxiv.org/pdf/2006.04788.pdf
+
+OC-FakeDect: classifying deepfakes using one-class variational autoencoder. 	Khalid, Woo 	http://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Khalid_OC-FakeDect_Classifying_Deepfakes_Using_One-Class_Variational_Autoencoder_CVPRW_2020_paper.pdf
+
+Tuning a variational autoencoder for data accountability problem in the Mars science laboratory ground data system. 	Lakhmiri, Alimo, Le Digabel	https://arxiv.org/pdf/2006.03962.pdf
+
+Generate high fidelity images with generative variational autoencoder. 	Sagar	https://d1wqtxts1xzle7.cloudfront.net/63577040/GVAE20200609-33737-2ojfbd.pdf?1591724283=&response-content-disposition=inline%3B+filename%3DGenerate_High_Fidelity_Images_With_Gener.pdf&Expires=1592933681&Signature=NI4uAK8CTTGPoWx-KYkCl5giVzyEfhUsIkGh4lM4bSTXmWOc-oCX4T~gX5x2HB4gJVX4ZtZy8qghJf7qGJ2GSrP~89PMb1dzX3KTyMUbWRvK1InS28wuc86KMEanX7gj7Tu0IrwMoRLjpdZZnc7Jt00Ga9A1N79n8MNj4fdeRFkZE5h8BgUTY9u11zN4pVSj~Rz3clsb~RIJldCmSZ3np31Qo8RAnVWap9MMJMoYWPq8EnBJ367G3ip~mSHh1lDZLGRCuVupWLxIzF1q4SAWfLvG75~CTacPvQneelwUQnTRwf93H9FRw7FpbrbpuJrOu-7tcZJdowAIRsDh-EVHEg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+PuppeteerGAN: arbitrary portrait animation with semantic-aware appearance transformation.	Chen, Wang, yuan, Tao	http://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_PuppeteerGAN_Arbitrary_Portrait_Animation_With_Semantic-Aware_Appearance_Transformation_CVPR_2020_paper.pdf
+
+Joint training of variational auto-encoder and latent energy-based model. 	Han, Nijkamp, Zhou, Pang, Zhu, Wu	http://openaccess.thecvf.com/content_CVPR_2020/papers/Han_Joint_Training_of_Variational_Auto-Encoder_and_Latent_Energy-Based_Model_CVPR_2020_paper.pdf
+
+Feature-based generative design of mechanisms with a variational autoencoder.	Brandt	https://search.proquest.com/docview/2408896683?pq-origsite=gscholar&fromopenview=true
+
+Denoising diffusion probabilistic models.	Ho, Jain, Abbeel	https://arxiv.org/pdf/2006.11239.pdf
+
+Simple and effective VAE training with calibrated decoders. 	Rybkin, Daniilidis, Levine	https://arxiv.org/abs/2006.13202
+
+SurVAE Flows: surjections to bridge the gap between VAEs and flows.	Nielsen, Jaini, Hoogeboom, Winther, Welling	https://arxiv.org/pdf/2007.02731.pdf
 
 Mutual information gradient estimation for representation learning.	Wen, Zhou, He, Zhou, Xu	https://arxiv.org/pdf/2005.01123.pdf
 	
@@ -291,6 +421,8 @@ Detecting adversarial examples in learning-enabled cyber-physical systems using 
 
 
 ## 2019
+
+Prescribed generative adversarial networks.	Dieng, Ruiz, Blei, Titsias	https://arxiv.org/abs/1910.04302
 
 On the dimensionality of embeddings for sparse features and data	Naumov	https://arxiv.org/abs/1901.02103
 
@@ -768,7 +900,11 @@ Non-parallel voice conversion with controllable speaker individuality using vari
 Derivation of the variational Bayes equations.	Maren	https://arxiv.org/pdf/1906.08804.pdf
 
 
+
+
 ## 2018
+
+Wasserstein variational inference.	Ambrogioni, Guclu, Gucluturk, Hinne, Maris, van Gerven	https://arxiv.org/abs/1805.11284
 
 The dreaming variational autoencoder for reinforcement learning environments	Andersen, Goodwin, Granmo	https://arxiv.org/pdf/1810.01112v1.pdf
 
@@ -1145,6 +1281,8 @@ A recurrent latent variable model for sequential data.	Chung, Kastner, Dinh, Goe
 Unsupervised learning of 3D structure from images.	Rezende, Eslami, Mohamed, Battaglia, Jaderberg, Heess	https://arxiv.org/pdf/1607.00662.pdf
 
 A survey of inductive biases for factorial representation-learning.	Ridgeway	https://arxiv.org/pdf/1612.05299.pdf
+
+Short notes on variational bounds with rescaled terms.	Rezende	https://danilorezende.com/2016/06/27/short-notes-on-variational-bounds-with-rescaled-terms/
 
 
 ## 2015
