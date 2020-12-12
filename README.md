@@ -3,10 +3,34 @@ Awesome work on the VAE, disentanglement, representation learning, and generativ
 
 I gathered these resources (currently @ 844 papers) as literature for my PhD, and thought it may come in useful for others. This list includes works relevant to various topics relating to VAEs. Sometimes this spills over to topics e.g. adversarial training and GANs, general disentanglement, variational inference, flow-based models and auto-regressive models. Always keen to expand the list - feel free to contribute or email me if I've missed your paper off the list : ]
 
-They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
+They are ordered by year (new to old).
 
 
 ## 2020
+
+Towards causal generative scene models via competition of experts. 	von Kugelgen, Ustyuzhaninov, Gehler, Bethge, Scholkopf	https://arxiv.org/pdf/2004.12906.pdf
+
+A correspondence variational autoencoder for unsupervised acoustic word embeddings.	Peng, Kamper, Livescu	https://arxiv.org/pdf/2012.02221.pdf
+
+Industrial process modeling and fault detection with recurrent Kalman variational autoencoder. 	Zhang, Zhu, Liu, Ge	https://ieeexplore.ieee.org/abstract/document/9275274/
+
+A data reconstruction method based on adversarial conditional variational autoencoder. 	Ren, Liu, Zhang, Jiang, Luo	https://ieeexplore.ieee.org/abstract/document/9275168/
+
+Quantifying common support between multiple treatment groups using a contrastive-VAE. 	Dai, Stultz	http://proceedings.mlr.press/v136/dai20a/dai20a.pdf
+
+Dynamics -based peptide-MHC binding optimization by a convolutional variational autoencoder: a use-case model for CASTELO.	Bell, Domeniconi, Yang, Zhou, Zhang, Cong	https://arxiv.org/pdf/2012.00672.pdf
+
+Prior flow variational autoencoder: a density estimation model for non-intrusive load monitoring. 	Henriques, Morgan, Colcher	https://arxiv.org/pdf/2011.14870.pdf
+
+Semi-supervised bearing fault diagnosis and classification using variational autoencoder-based deep generative models. 	Zhang, Ye, Wang, Habetler	https://ieeexplore.ieee.org/abstract/document/9270010/
+
+Manga filling style conversion with screentone variational autoencoder. 	Xie, Li, Liu, Wong	https://dl.acm.org/doi/abs/10.1145/3414685.3417873
+
+World model as a graph: learning latent landmarks for planning. 	Zhang, Yang, Stadie	https://arxiv.org/pdf/2011.12491.pdf
+
+A statistical evaluation of machine learning algorithms for applied data analysis. 	Beaulac	http://probability.ca/jeff/ftpdir/cedricthesis.pdf
+
+Unsupervised learning of disentangled representations in deep restricted kernel machines with orthogonality constraints. 	Tonin, Patrinos, Suykens	https://arxiv.org/pdf/2011.12659.pdf
 
 Very deep VAEs generalize autoregressive models and can outperform them on images.	Anonymous	https://openreview.net/forum?id=RLRXCV6DbEJ
 
@@ -1509,6 +1533,10 @@ Hierarchical variational memory network for dialogue generation.	Chen, Ren, Tang
 World models.	Ha, Schmidhuber	https://arxiv.org/pdf/1803.10122.pdf
 
 ## 2017
+
+Grammar variational autoencoders.	Kusner, Paige, Hernandez-Lobato	https://arxiv.org/pdf/1703.01925.pdf
+
+The multi-entity variational autoencoder.	Nash, Eslami, Burgess, Higgins, Zoran, Weher, Battaglia	https://charlienash.github.io/assets/docs/mevae2017.pdf
 
 Towards a neural statistician. 	Edwards, Storkey	https://arxiv.org/abs/1606.02185
 
