@@ -156,6 +156,9 @@ Dirichlet Process Prior for Student?s t Graph Variational Autoencoders.  Zhao, H
 
 Variational Autoencoder Analysis of Ising Model Statistical Distributions and Phase Transitions. Yevick https://arxiv.org/pdf/2104.06368.pdf
 
+How to Annotate PDFs and Scanned Images for NLP Applications, Walid Amamou , https://ubiai.tools/blog/article/how-to-annotate-pdfs-and-scanned-images-for-nlp-applications
+
+Easy-to-Use Text Annotation for NLP Applications, Walid AMAMOU , https://ubiai.tools/blog/article/introducing-ubiai-easy-to-use-text-annotation-for-nlp-applications
 
 ## 2020
 
